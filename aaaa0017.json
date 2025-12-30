@@ -1,0 +1,38 @@
+[
+  {
+    "album": "Disraeli Gears (Deluxe Edition)",
+    "artists": [
+      "Cream"
+    ],
+    "title": "Sunshine Of Your Love",
+    "card_number": "00225",
+    "spotify": "2K2M0TcglCRLLpFOzKeFZA",
+    "spotify_url": "https://open.spotify.com/track/2K2M0TcglCRLLpFOzKeFZA",
+    "deezer_url": "https://www.deezer.com/track/61520885",
+    "youtube_music_url": "https://music.youtube.com/watch?v=f3y8jf01UY8"
+  },
+  {
+    "album": "Room On Fire",
+    "artists": [
+      "The Strokes"
+    ],
+    "title": "Reptilia",
+    "card_number": "00224",
+    "spotify": "57Xjny5yNzAcsxnusKmAfA",
+    "spotify_url": "https://open.spotify.com/track/57Xjny5yNzAcsxnusKmAfA",
+    "deezer_url": "https://www.deezer.com/track/14880812",
+    "youtube_music_url": "https://music.youtube.com/watch?v=b8-tXG8KrWs"
+  },
+  {
+    "album": "Take The Crown (Deluxe Edition)",
+    "artists": [
+      "Robbie Williams"
+    ],
+    "title": "Candy",
+    "card_number": "00204",
+    "spotify": "5NlFXQ0si6U87gXs6hq81B",
+    "spotify_url": "https://open.spotify.com/track/5NlFXQ0si6U87gXs6hq81B",
+    "deezer_url": "https://www.deezer.com/track/96166150",
+    "youtube_music_url": "https://music.youtube.com/watch?v=k8nxe6UE1gY"
+  }
+]

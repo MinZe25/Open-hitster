@@ -1,0 +1,12 @@
+{
+  "name": "open-hitster",
+  "version": "1.0.0",
+  "description": "Static card info backend for GitHub Pages",
+  "main": "generate_data.js",
+  "scripts": {
+    "build": "node generate_data.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
