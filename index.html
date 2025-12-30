@@ -216,11 +216,13 @@
                 const decodedText = detectedCodes[0].rawValue;
                 console.log(`Scanned: ${decodedText}`);
                 
-                const urlPattern = /(hitstergame.com)\/([^/]+)\/([^/]+)\/([^/]+)$/;
+                const urlPattern = /\/([^/]+)\/([^/]+)\/([^/]+)$/;
                 const match = decodedText.match(urlPattern);
 
                 if (match) {
-                    const [_, host, lang, sku, cardNumber] = match;
+                    const [_,lang, sku, cardNumber] = match;
+                    console.log(`Detected card: ${lang}/${sku}/${cardNumber}`);
+                    console.log(`Preferred service: ${selectedService.value}`);
                     try {
                         const response = await fetch(`./card/${lang}/${sku}/${cardNumber}.json`);
                         if (response.ok) {

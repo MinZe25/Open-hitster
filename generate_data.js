@@ -3,7 +3,7 @@ const path = require('path');
 
 const DATA_DIR = '.';
 const OUTPUT_DIR = 'card';
-const DEFAULT_LANGUAGE = 'en';
+const DEFAULT_LANGUAGE = 'es';
 
 function generate() {
     if (!fs.existsSync(OUTPUT_DIR)) {

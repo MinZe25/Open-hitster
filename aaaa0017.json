@@ -1,38 +1,2750 @@
 [
-  {
-    "album": "Disraeli Gears (Deluxe Edition)",
-    "artists": [
-      "Cream"
-    ],
-    "title": "Sunshine Of Your Love",
-    "card_number": "00225",
-    "spotify": "2K2M0TcglCRLLpFOzKeFZA",
-    "spotify_url": "https://open.spotify.com/track/2K2M0TcglCRLLpFOzKeFZA",
-    "deezer_url": "https://www.deezer.com/track/61520885",
-    "youtube_music_url": "https://music.youtube.com/watch?v=f3y8jf01UY8"
-  },
-  {
-    "album": "Room On Fire",
-    "artists": [
-      "The Strokes"
-    ],
-    "title": "Reptilia",
-    "card_number": "00224",
-    "spotify": "57Xjny5yNzAcsxnusKmAfA",
-    "spotify_url": "https://open.spotify.com/track/57Xjny5yNzAcsxnusKmAfA",
-    "deezer_url": "https://www.deezer.com/track/14880812",
-    "youtube_music_url": "https://music.youtube.com/watch?v=b8-tXG8KrWs"
-  },
-  {
-    "album": "Take The Crown (Deluxe Edition)",
-    "artists": [
-      "Robbie Williams"
-    ],
-    "title": "Candy",
-    "card_number": "00204",
-    "spotify": "5NlFXQ0si6U87gXs6hq81B",
-    "spotify_url": "https://open.spotify.com/track/5NlFXQ0si6U87gXs6hq81B",
-    "deezer_url": "https://www.deezer.com/track/96166150",
-    "youtube_music_url": "https://music.youtube.com/watch?v=k8nxe6UE1gY"
-  }
+    {
+        "album": "Disraeli Gears (Deluxe Edition)",
+        "artists": [
+            "Cream"
+        ],
+        "title": "Sunshine Of Your Love",
+        "card_number": "00225",
+        "spotify": "2K2M0TcglCRLLpFOzKeFZA",
+        "spotify_url": "https://open.spotify.com/track/2K2M0TcglCRLLpFOzKeFZA",
+        "deezer_url": "https://www.deezer.com/track/61520885",
+        "youtube_music_url": "https://music.youtube.com/watch?v=f3y8jf01UY8"
+    },
+    {
+        "album": "Room On Fire",
+        "artists": [
+            "The Strokes"
+        ],
+        "title": "Reptilia",
+        "card_number": "00224",
+        "spotify": "57Xjny5yNzAcsxnusKmAfA",
+        "spotify_url": "https://open.spotify.com/track/57Xjny5yNzAcsxnusKmAfA",
+        "deezer_url": "https://www.deezer.com/track/14880812",
+        "youtube_music_url": "https://music.youtube.com/watch?v=b8-tXG8KrWs"
+    },
+    {
+        "album": "Amaneciendo",
+        "artists": [
+            "Camilo Sesto"
+        ],
+        "title": "Perdóname",
+        "card_number": "00223",
+        "spotify": "3ZFYnK3yePXgrGxBTXsPww",
+        "spotify_url": "https://open.spotify.com/track/3ZFYnK3yePXgrGxBTXsPww",
+        "deezer_url": "https://www.deezer.com/track/377518771",
+        "youtube_music_url": "https://music.youtube.com/watch?v=6nl5U0O5nOU"
+    },
+    {
+        "album": "Grandes Exitos",
+        "artists": [
+            "Chayanne"
+        ],
+        "title": "Torero",
+        "card_number": "00222",
+        "spotify": "709CndJJB3GTUhQD0LLFse",
+        "spotify_url": "https://open.spotify.com/track/709CndJJB3GTUhQD0LLFse",
+        "deezer_url": "https://www.deezer.com/track/2168947",
+        "youtube_music_url": "https://music.youtube.com/watch?v=GuZzuQvv7uc"
+    },
+    {
+        "album": "Oracular Spectacular",
+        "artists": [
+            "MGMT"
+        ],
+        "title": "Kids",
+        "card_number": "00221",
+        "spotify": "1jJci4qxiYcOHhQR247rEU",
+        "spotify_url": "https://open.spotify.com/track/1jJci4qxiYcOHhQR247rEU",
+        "deezer_url": "https://www.deezer.com/track/1642055222",
+        "youtube_music_url": "https://music.youtube.com/watch?v=CaBEdunlaOU"
+    },
+    {
+        "album": "Everybody Else Is Doing It, So Why Can't We?",
+        "artists": [
+            "The Cranberries"
+        ],
+        "title": "Dreams",
+        "card_number": "00220",
+        "spotify": "4JGKZS7h4Qa16gOU3oNETV",
+        "spotify_url": "https://open.spotify.com/track/4JGKZS7h4Qa16gOU3oNETV",
+        "deezer_url": "https://www.deezer.com/track/120624460",
+        "youtube_music_url": "https://music.youtube.com/watch?v=5oWyMakvQew"
+    },
+    {
+        "album": "At The Close Of A Century",
+        "artists": [
+            "Stevie Wonder"
+        ],
+        "title": "I Just Called To Say I Love You",
+        "card_number": "00219",
+        "spotify": "6RNDeRnWsRMjPdNVgupZCs",
+        "spotify_url": "https://open.spotify.com/track/6RNDeRnWsRMjPdNVgupZCs",
+        "deezer_url": "https://www.deezer.com/track/5981614",
+        "youtube_music_url": "https://music.youtube.com/watch?v=1bGOgY1CmiU"
+    },
+    {
+        "album": "Memories...Do Not Open",
+        "artists": [
+            "The Chainsmokers",
+            "Coldplay"
+        ],
+        "title": "Something Just Like This",
+        "card_number": "00218",
+        "spotify": "6RUKPb4LETWmmr3iAEQktW",
+        "spotify_url": "https://open.spotify.com/track/6RUKPb4LETWmmr3iAEQktW",
+        "deezer_url": "https://www.deezer.com/track/365406671",
+        "youtube_music_url": "https://music.youtube.com/watch?v=FM7MFYoylVs"
+    },
+    {
+        "album": "iSouljaBoyTellem",
+        "artists": [
+            "Soulja Boy",
+            "Sammie"
+        ],
+        "title": "Kiss Me Thru The Phone",
+        "card_number": "00217",
+        "spotify": "2q4rjDy9WhaN3o9MvDbO21",
+        "spotify_url": "https://open.spotify.com/track/2q4rjDy9WhaN3o9MvDbO21",
+        "deezer_url": "https://www.deezer.com/track/3494101031",
+        "youtube_music_url": "https://music.youtube.com/watch?v=47Fbo4kU2AU"
+    },
+    {
+        "album": "Go West In the Navy",
+        "artists": [
+            "Village People"
+        ],
+        "title": "In the Navy - Original Version 1979",
+        "card_number": "00216",
+        "spotify": "4mjFMScEvHeM72791mXRCW",
+        "spotify_url": "https://open.spotify.com/track/4mjFMScEvHeM72791mXRCW",
+        "deezer_url": "https://www.deezer.com/track/7157481",
+        "youtube_music_url": "https://music.youtube.com/watch?v=nmGuy0jievs"
+    },
+    {
+        "album": "Spirit",
+        "artists": [
+            "Leona Lewis"
+        ],
+        "title": "Better in Time",
+        "card_number": "00215",
+        "spotify": "2iXBZ32Fz5VDCLeE0JIdX5",
+        "spotify_url": "https://open.spotify.com/track/2iXBZ32Fz5VDCLeE0JIdX5",
+        "deezer_url": "https://www.deezer.com/track/12695188",
+        "youtube_music_url": "https://music.youtube.com/watch?v=qSxyffSB7wA"
+    },
+    {
+        "album": "Palabras más, palabras menos",
+        "artists": [
+            "Los Rodriguez"
+        ],
+        "title": "Milonga del marinero y el capitán",
+        "card_number": "00214",
+        "spotify": "4Ha3yYGXzyBSC7LdxWXDY0",
+        "spotify_url": "https://open.spotify.com/track/4Ha3yYGXzyBSC7LdxWXDY0",
+        "deezer_url": "https://www.deezer.com/track/3638303162",
+        "youtube_music_url": "https://music.youtube.com/watch?v=49xpviNoBO4"
+    },
+    {
+        "album": "Ain't Your Mama",
+        "artists": [
+            "Jennifer Lopez"
+        ],
+        "title": "Ain't Your Mama",
+        "card_number": "00213",
+        "spotify": "2hgzdQdnfWwtdpZbhZlV72",
+        "spotify_url": "https://open.spotify.com/track/2hgzdQdnfWwtdpZbhZlV72",
+        "deezer_url": "https://www.deezer.com/track/122450802",
+        "youtube_music_url": "https://music.youtube.com/watch?v=Pgmx7z49OEk"
+    },
+    {
+        "album": "Fallen",
+        "artists": [
+            "Evanescence"
+        ],
+        "title": "My Immortal",
+        "card_number": "00212",
+        "spotify": "4UzVcXufOhGUwF56HT7b8M",
+        "spotify_url": "https://open.spotify.com/track/4UzVcXufOhGUwF56HT7b8M",
+        "deezer_url": "https://www.deezer.com/track/71323493",
+        "youtube_music_url": "https://music.youtube.com/watch?v=5anLPw0Efmo"
+    },
+    {
+        "album": "Purpose (Deluxe)",
+        "artists": [
+            "Justin Bieber"
+        ],
+        "title": "Love Yourself",
+        "card_number": "00211",
+        "spotify": "50kpGaPAhYJ3sGmk6vplg0",
+        "spotify_url": "https://open.spotify.com/track/50kpGaPAhYJ3sGmk6vplg0",
+        "deezer_url": "https://www.deezer.com/track/860791602",
+        "youtube_music_url": "https://music.youtube.com/watch?v=RWXkX7oRQi8"
+    },
+    {
+        "album": "Dire Straits",
+        "artists": [
+            "Dire Straits"
+        ],
+        "title": "Sultans Of Swing",
+        "card_number": "00210",
+        "spotify": "37Tmv4NnfQeb0ZgUC4fOJj",
+        "spotify_url": "https://open.spotify.com/track/37Tmv4NnfQeb0ZgUC4fOJj",
+        "deezer_url": "https://www.deezer.com/track/12700806",
+        "youtube_music_url": "https://music.youtube.com/watch?v=h0ffIJ7ZO4U"
+    },
+    {
+        "album": "Un Día Normal",
+        "artists": [
+            "Juanes"
+        ],
+        "title": "A Dios Le Pido",
+        "card_number": "00209",
+        "spotify": "129lYDVKnWtlJc2PZJviuA",
+        "spotify_url": "https://open.spotify.com/track/129lYDVKnWtlJc2PZJviuA",
+        "deezer_url": "https://www.deezer.com/track/1098747",
+        "youtube_music_url": "https://music.youtube.com/watch?v=kMIaYXxLnUA"
+    },
+    {
+        "album": "Kala",
+        "artists": [
+            "M.I.A."
+        ],
+        "title": "Paper Planes",
+        "card_number": "00208",
+        "spotify": "1ixbwbeBi5ufN4noUKmW5a",
+        "spotify_url": "https://open.spotify.com/track/1ixbwbeBi5ufN4noUKmW5a",
+        "deezer_url": "https://www.deezer.com/track/1921220217",
+        "youtube_music_url": "https://music.youtube.com/watch?v=ewRjZoRtu0Y"
+    },
+    {
+        "album": "Weezer",
+        "artists": [
+            "Weezer"
+        ],
+        "title": "Island In The Sun",
+        "card_number": "00207",
+        "spotify": "2MLHyLy5z5l5YRp7momlgw",
+        "spotify_url": "https://open.spotify.com/track/2MLHyLy5z5l5YRp7momlgw",
+        "deezer_url": "https://www.deezer.com/track/1744938837",
+        "youtube_music_url": "https://music.youtube.com/watch?v=erG5rgNYSdk"
+    },
+    {
+        "album": "Private Dancer (30th Anniversary Issue)",
+        "artists": [
+            "Tina Turner"
+        ],
+        "title": "What's Love Got to Do with It - 2015 Remaster",
+        "card_number": "00206",
+        "spotify": "3ErsOxqe2RmXkR65wkygDz",
+        "spotify_url": "https://open.spotify.com/track/3ErsOxqe2RmXkR65wkygDz",
+        "deezer_url": "https://www.deezer.com/track/102271948",
+        "youtube_music_url": "https://music.youtube.com/watch?v=1avX1lX7gSs"
+    },
+    {
+        "album": "Andy Y Lucas",
+        "artists": [
+            "Andy & Lucas"
+        ],
+        "title": "Tanto la Queria",
+        "card_number": "00205",
+        "spotify": "2VSGzQqy9nqJefcYGJNWst",
+        "spotify_url": "https://open.spotify.com/track/2VSGzQqy9nqJefcYGJNWst",
+        "deezer_url": "https://www.deezer.com/track/629049",
+        "youtube_music_url": "https://music.youtube.com/watch?v=b81kOviE7EI"
+    },
+    {
+        "album": "Take The Crown (Deluxe Edition)",
+        "artists": [
+            "Robbie Williams"
+        ],
+        "title": "Candy",
+        "card_number": "00204",
+        "spotify": "5NlFXQ0si6U87gXs6hq81B",
+        "spotify_url": "https://open.spotify.com/track/5NlFXQ0si6U87gXs6hq81B",
+        "deezer_url": "https://www.deezer.com/track/96166150",
+        "youtube_music_url": "https://music.youtube.com/watch?v=k8nxe6UE1gY"
+    },
+    {
+        "album": "Los Ángeles",
+        "artists": [
+            "Aitana"
+        ],
+        "title": "Los Ángeles",
+        "card_number": "00203",
+        "spotify": "7lrMkztvl0MnRSB2i3KRRe",
+        "spotify_url": "https://open.spotify.com/track/7lrMkztvl0MnRSB2i3KRRe",
+        "deezer_url": "https://www.deezer.com/track/5610184",
+        "youtube_music_url": "https://music.youtube.com/watch?v=F_wckJfEOkI"
+    },
+    {
+        "album": "Slicker than Your Average",
+        "artists": [
+            "Craig David",
+            "Sting"
+        ],
+        "title": "Rise & Fall (feat. Sting)",
+        "card_number": "00202",
+        "spotify": "23ehR4jpFQFMfDADgFdXR7",
+        "spotify_url": "https://open.spotify.com/track/23ehR4jpFQFMfDADgFdXR7",
+        "deezer_url": "https://www.deezer.com/track/2111884807",
+        "youtube_music_url": "https://music.youtube.com/watch?v=pU2ukeS2JTE"
+    },
+    {
+        "album": "Medusa",
+        "artists": [
+            "Annie Lennox"
+        ],
+        "title": "No More \"I Love You's\"",
+        "card_number": "00201",
+        "spotify": "2Pn5gvVioma5LHPxgEBBmD",
+        "spotify_url": "https://open.spotify.com/track/2Pn5gvVioma5LHPxgEBBmD",
+        "deezer_url": "https://www.deezer.com/track/624314",
+        "youtube_music_url": "https://music.youtube.com/watch?v=NSkboTTTmpg"
+    },
+    {
+        "album": "You've Come a Long Way Baby",
+        "artists": [
+            "Fatboy Slim"
+        ],
+        "title": "Right Here, Right Now",
+        "card_number": "00200",
+        "spotify": "5Sh9v7RwibuV34tdjscwx5",
+        "spotify_url": "https://open.spotify.com/track/5Sh9v7RwibuV34tdjscwx5",
+        "deezer_url": "https://www.deezer.com/track/137203702",
+        "youtube_music_url": "https://music.youtube.com/watch?v=ub747pprmJ8"
+    },
+    {
+        "album": "Gran Turismo (Remastered)",
+        "artists": [
+            "The Cardigans"
+        ],
+        "title": "My Favourite Game",
+        "card_number": "00199",
+        "spotify": "0Ui05Ov0s4PnRc4JI3Pilg",
+        "spotify_url": "https://open.spotify.com/track/0Ui05Ov0s4PnRc4JI3Pilg",
+        "deezer_url": "https://www.deezer.com/track/916525",
+        "youtube_music_url": "https://music.youtube.com/watch?v=u9WgtlgGAgs"
+    },
+    {
+        "album": "(What's The Story) Morning Glory?",
+        "artists": [
+            "Oasis"
+        ],
+        "title": "Don't Look Back In Anger",
+        "card_number": "00198",
+        "spotify": "7ppPZa3TRUSGKaks9wH7VT",
+        "spotify_url": "https://open.spotify.com/track/7ppPZa3TRUSGKaks9wH7VT",
+        "deezer_url": "https://www.deezer.com/track/86799259",
+        "youtube_music_url": "https://music.youtube.com/watch?v=cmpRLQZkTb8"
+    },
+    {
+        "album": "Parklife (Special Edition)",
+        "artists": [
+            "Blur"
+        ],
+        "title": "Parklife - 2012 Remaster",
+        "card_number": "00197",
+        "spotify": "7FSzJQV6thyoQptFCUTV9c",
+        "spotify_url": "https://open.spotify.com/track/7FSzJQV6thyoQptFCUTV9c",
+        "deezer_url": "https://www.deezer.com/track/44134631",
+        "youtube_music_url": "https://music.youtube.com/watch?v=j4d3qk36Jq0"
+    },
+    {
+        "album": "Cuz I Love You (Super Deluxe)",
+        "artists": [
+            "Lizzo"
+        ],
+        "title": "Good as Hell",
+        "card_number": "00196",
+        "spotify": "6KgBpzTuTRPebChN0VTyzV",
+        "spotify_url": "https://open.spotify.com/track/6KgBpzTuTRPebChN0VTyzV",
+        "deezer_url": "https://www.deezer.com/track/784689672",
+        "youtube_music_url": "https://music.youtube.com/watch?v=SmbmeOgWsqE"
+    },
+    {
+        "album": "The Bridge",
+        "artists": [
+            "Ace of Base"
+        ],
+        "title": "Beautiful Life",
+        "card_number": "00195",
+        "spotify": "74jTexO94dFGyXGyeu8krd",
+        "spotify_url": "https://open.spotify.com/track/74jTexO94dFGyXGyeu8krd",
+        "deezer_url": "https://www.deezer.com/track/3286685211",
+        "youtube_music_url": "https://music.youtube.com/watch?v=wh-07BzfgYY"
+    },
+    {
+        "album": "18 Til I Die",
+        "artists": [
+            "Bryan Adams"
+        ],
+        "title": "Have You Ever Really Loved A Woman? - From \"Don Juan DeMarco\" Soundtrack",
+        "card_number": "00194",
+        "spotify": "32Gf5A7Hr8RdgggXG0Fdks",
+        "spotify_url": "https://open.spotify.com/track/32Gf5A7Hr8RdgggXG0Fdks",
+        "deezer_url": "https://www.deezer.com/track/1582154",
+        "youtube_music_url": "https://music.youtube.com/watch?v=pRt4tV63W2g"
+    },
+    {
+        "album": "Usar Y Tirar",
+        "artists": [
+            "M-Clan"
+        ],
+        "title": "Llamando a la tierra - Serenade From the Stars",
+        "card_number": "00193",
+        "spotify": "7M65iLprqQ9UJNqer4g6AM",
+        "spotify_url": "https://open.spotify.com/track/7M65iLprqQ9UJNqer4g6AM",
+        "deezer_url": "https://www.deezer.com/track/748820",
+        "youtube_music_url": "https://music.youtube.com/watch?v=o40AF3uOLiY"
+    },
+    {
+        "album": "Devil Came to Me",
+        "artists": [
+            "Dover"
+        ],
+        "title": "Devil Came to Me",
+        "card_number": "00192",
+        "spotify": "2Kmosqo7RmbvzziWLoy4gM",
+        "spotify_url": "https://open.spotify.com/track/2Kmosqo7RmbvzziWLoy4gM",
+        "deezer_url": "https://www.deezer.com/track/3225646371",
+        "youtube_music_url": "https://music.youtube.com/watch?v=9Yp3lc3PsjA"
+    },
+    {
+        "album": "Imagine",
+        "artists": [
+            "John Lennon"
+        ],
+        "title": "Imagine - Remastered 2010",
+        "card_number": "00191",
+        "spotify": "7pKfPomDEeI4TPT6EOYjn9",
+        "spotify_url": "https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9",
+        "deezer_url": "https://www.deezer.com/track/7193834",
+        "youtube_music_url": "https://music.youtube.com/watch?v=EcPsB6PwaiE"
+    },
+    {
+        "album": "Enema Of The State",
+        "artists": [
+            "blink-182"
+        ],
+        "title": "All The Small Things",
+        "card_number": "00190",
+        "spotify": "2m1hi0nfMR9vdGC8UcrnwU",
+        "spotify_url": "https://open.spotify.com/track/2m1hi0nfMR9vdGC8UcrnwU",
+        "deezer_url": "https://www.deezer.com/track/127354207",
+        "youtube_music_url": "https://music.youtube.com/watch?v=9Ht5RZpzPqw"
+    },
+    {
+        "album": "hello this is the setlist for my tour",
+        "artists": [
+            "GAYLE"
+        ],
+        "title": "abcdefu",
+        "card_number": "00189",
+        "spotify": "0y1mX0LxNwSMRPXWutJOJu",
+        "spotify_url": "https://open.spotify.com/track/0y1mX0LxNwSMRPXWutJOJu",
+        "deezer_url": "https://www.deezer.com/track/1689471757",
+        "youtube_music_url": "https://music.youtube.com/watch?v=NaFd8ucHLuo"
+    },
+    {
+        "album": "One More Love",
+        "artists": [
+            "David Guetta",
+            "Kelly Rowland"
+        ],
+        "title": "When Love Takes Over (feat. Kelly Rowland)",
+        "card_number": "00188",
+        "spotify": "0GWGZA5mxo9nHuSyrj70uo",
+        "spotify_url": "https://open.spotify.com/track/0GWGZA5mxo9nHuSyrj70uo",
+        "deezer_url": "https://www.deezer.com/track/3445820",
+        "youtube_music_url": "https://music.youtube.com/watch?v=zudbz4hOcbc"
+    },
+    {
+        "album": "Discography - Complete Singles Collection",
+        "artists": [
+            "Pet Shop Boys"
+        ],
+        "title": "Always on My Mind",
+        "card_number": "00187",
+        "spotify": "07ABETRdek3ACMpRPvQuaT",
+        "spotify_url": "https://open.spotify.com/track/07ABETRdek3ACMpRPvQuaT",
+        "deezer_url": "https://www.deezer.com/track/1653327222",
+        "youtube_music_url": "https://music.youtube.com/watch?v=wTRSlZEq_l0"
+    },
+    {
+        "album": "The Fame Monster (Deluxe Edition)",
+        "artists": [
+            "Lady Gaga",
+            "Beyoncé"
+        ],
+        "title": "Telephone",
+        "card_number": "00186",
+        "spotify": "4TCL0qqKyqsMZml0G3M9IM",
+        "spotify_url": "https://open.spotify.com/track/4TCL0qqKyqsMZml0G3M9IM",
+        "deezer_url": "https://www.deezer.com/track/570529412",
+        "youtube_music_url": "https://music.youtube.com/watch?v=1Ea8Rj2wQ2w"
+    },
+    {
+        "album": "It Never Rains In Southern California",
+        "artists": [
+            "Albert Hammond"
+        ],
+        "title": "It Never Rains in Southern California",
+        "card_number": "00185",
+        "spotify": "6tunhVGD8C05MZNjSVIsjw",
+        "spotify_url": "https://open.spotify.com/track/6tunhVGD8C05MZNjSVIsjw",
+        "deezer_url": "https://www.deezer.com/track/6837043",
+        "youtube_music_url": "https://music.youtube.com/watch?v=meDpNwem0Vo"
+    },
+    {
+        "album": "Sin Miedo (del Amor y Otros Demonios) ∞",
+        "artists": [
+            "Kali Uchis"
+        ],
+        "title": "telepatía",
+        "card_number": "00184",
+        "spotify": "6tDDoYIxWvMLTdKpjFkc1B",
+        "spotify_url": "https://open.spotify.com/track/6tDDoYIxWvMLTdKpjFkc1B",
+        "deezer_url": "https://www.deezer.com/track/1148585682",
+        "youtube_music_url": "https://music.youtube.com/watch?v=c4wsxp24xGo"
+    },
+    {
+        "album": "Ladies And Gentlemen... The Best Of George Michael",
+        "artists": [
+            "George Michael"
+        ],
+        "title": "Careless Whisper",
+        "card_number": "00183",
+        "spotify": "4jDmJ51x1o9NZB5Nxxc7gY",
+        "spotify_url": "https://open.spotify.com/track/4jDmJ51x1o9NZB5Nxxc7gY",
+        "deezer_url": "https://www.deezer.com/track/71212160",
+        "youtube_music_url": "https://music.youtube.com/watch?v=izGwDsrQ1eQ"
+    },
+    {
+        "album": "Reggatta De Blanc (Remastered 2003)",
+        "artists": [
+            "The Police"
+        ],
+        "title": "Message In A Bottle",
+        "card_number": "00182",
+        "spotify": "1oYYd2gnWZYrt89EBXdFiO",
+        "spotify_url": "https://open.spotify.com/track/1oYYd2gnWZYrt89EBXdFiO",
+        "deezer_url": "https://www.deezer.com/track/67507698",
+        "youtube_music_url": "https://music.youtube.com/watch?v=MbXWrmQW-OE"
+    },
+    {
+        "album": "Eye In The Sky (Expanded Edition)",
+        "artists": [
+            "The Alan Parsons Project"
+        ],
+        "title": "Eye In The Sky",
+        "card_number": "00181",
+        "spotify": "39qYD4J4BKvZMQgxfXl5bv",
+        "spotify_url": "https://open.spotify.com/track/39qYD4J4BKvZMQgxfXl5bv",
+        "deezer_url": "https://www.deezer.com/track/680955682",
+        "youtube_music_url": "https://music.youtube.com/watch?v=56hqrlQxMMI"
+    },
+    {
+        "album": "This Is My Truth Tell Me Yours",
+        "artists": [
+            "Manic Street Preachers"
+        ],
+        "title": "If You Tolerate This Your Children Will Be Next",
+        "card_number": "00180",
+        "spotify": "2VmyLy2HQlkevZYboXHM5O",
+        "spotify_url": "https://open.spotify.com/track/2VmyLy2HQlkevZYboXHM5O",
+        "deezer_url": "https://www.deezer.com/track/556031",
+        "youtube_music_url": "https://music.youtube.com/watch?v=cX8szNPgrEs"
+    },
+    {
+        "album": "Back To Basics",
+        "artists": [
+            "Christina Aguilera"
+        ],
+        "title": "Ain't No Other Man",
+        "card_number": "00179",
+        "spotify": "7huo2wvrCgRucUsjdSDLQV",
+        "spotify_url": "https://open.spotify.com/track/7huo2wvrCgRucUsjdSDLQV",
+        "deezer_url": "https://www.deezer.com/track/62417658",
+        "youtube_music_url": "https://music.youtube.com/watch?v=8x7Ta89QLo4"
+    },
+    {
+        "album": "Mundo Lite",
+        "artists": [
+            "Aleks Syntek",
+            "Ana Torroja"
+        ],
+        "title": "Duele El Amor",
+        "card_number": "00178",
+        "spotify": "0oXLSuno5adlHcPzlzs8l6",
+        "spotify_url": "https://open.spotify.com/track/0oXLSuno5adlHcPzlzs8l6",
+        "deezer_url": "https://www.deezer.com/track/5316910",
+        "youtube_music_url": "https://music.youtube.com/watch?v=VuDc8HQ3Rbg"
+    },
+    {
+        "album": "Music Box",
+        "artists": [
+            "Mariah Carey"
+        ],
+        "title": "Without You",
+        "card_number": "00177",
+        "spotify": "0pkIJFV6mviH9dmBYsFwTM",
+        "spotify_url": "https://open.spotify.com/track/0pkIJFV6mviH9dmBYsFwTM",
+        "deezer_url": "https://www.deezer.com/track/1385084382",
+        "youtube_music_url": "https://music.youtube.com/watch?v=jUe8uoKdHao"
+    },
+    {
+        "album": "In Blue",
+        "artists": [
+            "The Corrs"
+        ],
+        "title": "Breathless",
+        "card_number": "00176",
+        "spotify": "5OQGeJ1ceykovrykZsGhqL",
+        "spotify_url": "https://open.spotify.com/track/5OQGeJ1ceykovrykZsGhqL",
+        "deezer_url": "https://www.deezer.com/track/1440437252",
+        "youtube_music_url": "https://music.youtube.com/watch?v=-e_IuYgvdf8"
+    },
+    {
+        "album": "Justo Ahora",
+        "artists": [
+            "Dvicio"
+        ],
+        "title": "Paraíso",
+        "card_number": "00175",
+        "spotify": "04u9U3bDD9dVZFDDI8v0ME",
+        "spotify_url": "https://open.spotify.com/track/04u9U3bDD9dVZFDDI8v0ME",
+        "deezer_url": "https://www.deezer.com/track/3262406371",
+        "youtube_music_url": "https://music.youtube.com/watch?v=E3aHPaps-yk"
+    },
+    {
+        "album": "Metallica",
+        "artists": [
+            "Metallica"
+        ],
+        "title": "Nothing Else Matters",
+        "card_number": "00174",
+        "spotify": "0nLiqZ6A27jJri2VCalIUs",
+        "spotify_url": "https://open.spotify.com/track/0nLiqZ6A27jJri2VCalIUs",
+        "deezer_url": "https://www.deezer.com/track/1909619947",
+        "youtube_music_url": "https://music.youtube.com/watch?v=tAGnKpE4NCI"
+    },
+    {
+        "album": "The Blues Brothers Original Motion Picture Soundtrack",
+        "artists": [
+            "The Blues Brothers"
+        ],
+        "title": "Everybody Needs Somebody to Love",
+        "card_number": "00173",
+        "spotify": "1CtKHwDqsH3ctcCCI18N0g",
+        "spotify_url": "https://open.spotify.com/track/1CtKHwDqsH3ctcCCI18N0g",
+        "deezer_url": "https://www.deezer.com/track/63360815",
+        "youtube_music_url": "https://music.youtube.com/watch?v=EHV0zs0kVGg"
+    },
+    {
+        "album": "Never Gone",
+        "artists": [
+            "Backstreet Boys"
+        ],
+        "title": "Incomplete",
+        "card_number": "00172",
+        "spotify": "0CnD7Hiw6pae6rLsZw5q5W",
+        "spotify_url": "https://open.spotify.com/track/0CnD7Hiw6pae6rLsZw5q5W",
+        "deezer_url": "https://www.deezer.com/track/1005468082",
+        "youtube_music_url": "https://music.youtube.com/watch?v=WVe80iZtlYU"
+    },
+    {
+        "album": "The Singles 86-98",
+        "artists": [
+            "Depeche Mode"
+        ],
+        "title": "Personal Jesus - Single Version",
+        "card_number": "00171",
+        "spotify": "4UCTgh5jvtqoaMX6MAhUNn",
+        "spotify_url": "https://open.spotify.com/track/4UCTgh5jvtqoaMX6MAhUNn",
+        "deezer_url": "https://www.deezer.com/track/68515054",
+        "youtube_music_url": "https://music.youtube.com/watch?v=NoPFB8h2-Sg"
+    },
+    {
+        "album": "El Grito Del Tiempo",
+        "artists": [
+            "Duncan Dhu"
+        ],
+        "title": "En algún lugar",
+        "card_number": "00170",
+        "spotify": "3UIENhLRdFIOuRan92cAQu",
+        "spotify_url": "https://open.spotify.com/track/3UIENhLRdFIOuRan92cAQu",
+        "deezer_url": "https://www.deezer.com/track/674813",
+        "youtube_music_url": "https://music.youtube.com/watch?v=H1eAvX-8g08"
+    },
+    {
+        "album": "Heart Shaped World",
+        "artists": [
+            "Chris Isaak"
+        ],
+        "title": "Wicked Game",
+        "card_number": "00169",
+        "spotify": "7w5AOd6HrDIHewHfpABEss",
+        "spotify_url": "https://open.spotify.com/track/7w5AOd6HrDIHewHfpABEss",
+        "deezer_url": "https://www.deezer.com/track/91340144",
+        "youtube_music_url": "https://music.youtube.com/watch?v=oadhHk2xs6c"
+    },
+    {
+        "album": "Destiny",
+        "artists": [
+            "The Jacksons"
+        ],
+        "title": "Blame It on the Boogie",
+        "card_number": "00168",
+        "spotify": "3qI94hINNNeb4S7xQi18lS",
+        "spotify_url": "https://open.spotify.com/track/3qI94hINNNeb4S7xQi18lS",
+        "deezer_url": "https://www.deezer.com/track/932580882",
+        "youtube_music_url": "https://music.youtube.com/watch?v=nqxVMLVe62U"
+    },
+    {
+        "album": "Vestidos De Domingo",
+        "artists": [
+            "La Cabra Mecanica",
+            "María Jiménez"
+        ],
+        "title": "La lista de la compra (feat. María Jiménez)",
+        "card_number": "00167",
+        "spotify": "6htAV9HKCmoDdyyvDNX9DQ",
+        "spotify_url": "https://open.spotify.com/track/6htAV9HKCmoDdyyvDNX9DQ",
+        "deezer_url": "https://www.deezer.com/track/3901072",
+        "youtube_music_url": "https://music.youtube.com/watch?v=6UBwtL__280"
+    },
+    {
+        "album": "The Writing's On The Wall",
+        "artists": [
+            "Destiny's Child"
+        ],
+        "title": "Say My Name",
+        "card_number": "00166",
+        "spotify": "7H6ev70Weq6DdpZyyTmUXk",
+        "spotify_url": "https://open.spotify.com/track/7H6ev70Weq6DdpZyyTmUXk",
+        "deezer_url": "https://www.deezer.com/track/842385",
+        "youtube_music_url": "https://music.youtube.com/watch?v=ft4jcPSLJfY"
+    },
+    {
+        "album": "Rokstarr (Special Edition)",
+        "artists": [
+            "Taio Cruz",
+            "Kylie Minogue"
+        ],
+        "title": "Higher",
+        "card_number": "00165",
+        "spotify": "6AxCr5G75R5rqyNCYWVpTo",
+        "spotify_url": "https://open.spotify.com/track/6AxCr5G75R5rqyNCYWVpTo",
+        "deezer_url": "https://www.deezer.com/track/3497470731",
+        "youtube_music_url": "https://music.youtube.com/watch?v=Qa1IaUywiO8"
+    },
+    {
+        "album": "My Way (Expanded Edition)",
+        "artists": [
+            "Frank Sinatra"
+        ],
+        "title": "My Way",
+        "card_number": "00164",
+        "spotify": "3spdoTYpuCpmq19tuD0bOe",
+        "spotify_url": "https://open.spotify.com/track/3spdoTYpuCpmq19tuD0bOe",
+        "deezer_url": "https://www.deezer.com/track/3626732402",
+        "youtube_music_url": "https://music.youtube.com/watch?v=qQzdAsjWGPg"
+    },
+    {
+        "album": "Antonio (Remasterizado 2022)",
+        "artists": [
+            "Antonio Flores"
+        ],
+        "title": "No Dudaría - Remasterizado",
+        "card_number": "00163",
+        "spotify": "4I644fN7UCChrmEgJIL4KL",
+        "spotify_url": "https://open.spotify.com/track/4I644fN7UCChrmEgJIL4KL",
+        "deezer_url": "https://www.deezer.com/track/1627964702",
+        "youtube_music_url": "https://music.youtube.com/watch?v=F_xbfIgWMHU"
+    },
+    {
+        "album": "News Of The World (2011 Remaster)",
+        "artists": [
+            "Queen"
+        ],
+        "title": "We Will Rock You - Remastered 2011",
+        "card_number": "00162",
+        "spotify": "4pbJqGIASGPr0ZpGpnWkDn",
+        "spotify_url": "https://open.spotify.com/track/4pbJqGIASGPr0ZpGpnWkDn",
+        "deezer_url": "https://www.deezer.com/track/12206933",
+        "youtube_music_url": "https://music.youtube.com/watch?v=BPUzsg5UsjM"
+    },
+    {
+        "album": "Deseo Carnal",
+        "artists": [
+            "Alaska Y Dinarama"
+        ],
+        "title": "Cómo pudiste hacerme esto a mí",
+        "card_number": "00161",
+        "spotify": "6L3rEi9FdKAuwCz1DiWkIk",
+        "spotify_url": "https://open.spotify.com/track/6L3rEi9FdKAuwCz1DiWkIk",
+        "deezer_url": "https://www.deezer.com/track/3370435",
+        "youtube_music_url": "https://music.youtube.com/watch?v=lIErS2I2Crs"
+    },
+    {
+        "album": "Stories",
+        "artists": [
+            "Avicii"
+        ],
+        "title": "Waiting For Love",
+        "card_number": "00160",
+        "spotify": "2P4OICZRVAQcYAV2JReRfj",
+        "spotify_url": "https://open.spotify.com/track/2P4OICZRVAQcYAV2JReRfj",
+        "deezer_url": "https://www.deezer.com/track/107346368",
+        "youtube_music_url": "https://music.youtube.com/watch?v=cHHLHGNpCSA"
+    },
+    {
+        "album": "The Eminem Show",
+        "artists": [
+            "Eminem"
+        ],
+        "title": "Without Me",
+        "card_number": "00159",
+        "spotify": "7lQ8MOhq6IN2w8EYcFNSUk",
+        "spotify_url": "https://open.spotify.com/track/7lQ8MOhq6IN2w8EYcFNSUk",
+        "deezer_url": "https://www.deezer.com/track/4225379",
+        "youtube_music_url": "https://music.youtube.com/watch?v=YVkUvmDQ3HY"
+    },
+    {
+        "album": "7 Seconds: The Best Of Youssou N'Dour",
+        "artists": [
+            "Youssou N'Dour",
+            "Neneh Cherry"
+        ],
+        "title": "7 Seconds (feat. Neneh Cherry)",
+        "card_number": "00158",
+        "spotify": "76D5nfZbYzZYfUZKGy73jy",
+        "spotify_url": "https://open.spotify.com/track/76D5nfZbYzZYfUZKGy73jy",
+        "deezer_url": "https://www.deezer.com/track/1015065",
+        "youtube_music_url": "https://music.youtube.com/watch?v=wqCpjFMvz-k"
+    },
+    {
+        "album": "Dreamland",
+        "artists": [
+            "Black Box"
+        ],
+        "title": "Ride on Time",
+        "card_number": "00157",
+        "spotify": "3pgainA2dH9c7e8JVYGRCN",
+        "spotify_url": "https://open.spotify.com/track/3pgainA2dH9c7e8JVYGRCN",
+        "deezer_url": "https://www.deezer.com/track/70051871",
+        "youtube_music_url": "https://music.youtube.com/watch?v=M0quXl_od3g"
+    },
+    {
+        "album": "I Put A Spell On You",
+        "artists": [
+            "Nina Simone"
+        ],
+        "title": "Feeling Good",
+        "card_number": "00156",
+        "spotify": "61S0mEfdRtJ62Fc7fPqx0U",
+        "spotify_url": "https://open.spotify.com/track/61S0mEfdRtJ62Fc7fPqx0U",
+        "deezer_url": "https://www.deezer.com/track/113042394",
+        "youtube_music_url": "https://music.youtube.com/watch?v=Edwsf-8F3sI"
+    },
+    {
+        "album": "Future Nostalgia",
+        "artists": [
+            "Dua Lipa"
+        ],
+        "title": "Don't Start Now",
+        "card_number": "00155",
+        "spotify": "3PfIrDoz19wz7qK7tYeu62",
+        "spotify_url": "https://open.spotify.com/track/3PfIrDoz19wz7qK7tYeu62",
+        "deezer_url": "https://www.deezer.com/track/1066805012",
+        "youtube_music_url": "https://music.youtube.com/watch?v=oygrmJFKYZY"
+    },
+    {
+        "album": "The River",
+        "artists": [
+            "Bruce Springsteen"
+        ],
+        "title": "Hungry Heart",
+        "card_number": "00154",
+        "spotify": "1KsI8NEeAna8ZIdojI3FiT",
+        "spotify_url": "https://open.spotify.com/track/1KsI8NEeAna8ZIdojI3FiT",
+        "deezer_url": "https://www.deezer.com/track/15177141",
+        "youtube_music_url": "https://music.youtube.com/watch?v=boJhWtw-6Gg"
+    },
+    {
+        "album": "The Drums",
+        "artists": [
+            "The Drums"
+        ],
+        "title": "Lets Go Surfing",
+        "card_number": "00153",
+        "spotify": "49skdn8Truaufvcz8BXmtT",
+        "spotify_url": "https://open.spotify.com/track/49skdn8Truaufvcz8BXmtT",
+        "deezer_url": "https://www.deezer.com/track/6602986",
+        "youtube_music_url": "https://music.youtube.com/watch?v=VkQrJ3SVXko"
+    },
+    {
+        "album": "The Last Don",
+        "artists": [
+            "Don Omar"
+        ],
+        "title": "Dile",
+        "card_number": "00152",
+        "spotify": "69Ej1xrGjOcHvIMtMKxK0G",
+        "spotify_url": "https://open.spotify.com/track/69Ej1xrGjOcHvIMtMKxK0G",
+        "deezer_url": "https://www.deezer.com/track/453154072",
+        "youtube_music_url": "https://music.youtube.com/watch?v=bc1RmZ4uQoI"
+    },
+    {
+        "album": "Te Felicito",
+        "artists": [
+            "Shakira",
+            "Rauw Alejandro"
+        ],
+        "title": "Te Felicito",
+        "card_number": "00151",
+        "spotify": "2rurDawMfoKP4uHyb2kJBt",
+        "spotify_url": "https://open.spotify.com/track/2rurDawMfoKP4uHyb2kJBt",
+        "deezer_url": "https://www.deezer.com/track/1718098247",
+        "youtube_music_url": "https://music.youtube.com/watch?v=4I25nV9hXGA"
+    },
+    {
+        "album": "Tiene que haber algo más",
+        "artists": [
+            "Alizzz",
+            "Amaia"
+        ],
+        "title": "El Encuentro",
+        "card_number": "00150",
+        "spotify": "7etLErRSTb2DoEwg34GOSs",
+        "spotify_url": "https://open.spotify.com/track/7etLErRSTb2DoEwg34GOSs",
+        "deezer_url": "https://www.deezer.com/track/15214441",
+        "youtube_music_url": "https://music.youtube.com/watch?v=sEjplW7a6jA"
+    },
+    {
+        "album": "Duran Duran",
+        "artists": [
+            "Duran Duran"
+        ],
+        "title": "Ordinary World",
+        "card_number": "00149",
+        "spotify": "0wokCRaKD0zPNhMRXAgVsr",
+        "spotify_url": "https://open.spotify.com/track/0wokCRaKD0zPNhMRXAgVsr",
+        "deezer_url": "https://www.deezer.com/track/3130430",
+        "youtube_music_url": "https://music.youtube.com/watch?v=FqIACCH20JU"
+    },
+    {
+        "album": "Pafuera Telarañas",
+        "artists": [
+            "Bebe"
+        ],
+        "title": "Ella",
+        "card_number": "00148",
+        "spotify": "1DOuHBUpfN1GwDsZOZkwgO",
+        "spotify_url": "https://open.spotify.com/track/1DOuHBUpfN1GwDsZOZkwgO",
+        "deezer_url": "https://www.deezer.com/track/564946662",
+        "youtube_music_url": "https://music.youtube.com/watch?v=IhTOKqwXgzQ"
+    },
+    {
+        "album": "Voicenotes",
+        "artists": [
+            "Charlie Puth"
+        ],
+        "title": "Attention",
+        "card_number": "00147",
+        "spotify": "5cF0dROlMOK5uNZtivgu50",
+        "spotify_url": "https://open.spotify.com/track/5cF0dROlMOK5uNZtivgu50",
+        "deezer_url": "https://www.deezer.com/track/3208639091",
+        "youtube_music_url": "https://music.youtube.com/watch?v=6QYcd7RggNU"
+    },
+    {
+        "album": "bellodrama",
+        "artists": [
+            "Ana Mena",
+            "Rocco Hunt"
+        ],
+        "title": "A Un Paso De La Luna",
+        "card_number": "00146",
+        "spotify": "1vNYb4aLINWNy0plIsLQeX",
+        "spotify_url": "https://open.spotify.com/track/1vNYb4aLINWNy0plIsLQeX",
+        "deezer_url": "https://www.deezer.com/track/1034257422",
+        "youtube_music_url": "https://music.youtube.com/watch?v=NQ3YKiMZDxw"
+    },
+    {
+        "album": "Forever Young (Super Deluxe Edition; 2019 Remaster)",
+        "artists": [
+            "Alphaville"
+        ],
+        "title": "Big in Japan - Single Version; 2019 Remaster",
+        "card_number": "00145",
+        "spotify": "3TieIQTlipul7oxGldyX09",
+        "spotify_url": "https://open.spotify.com/track/3TieIQTlipul7oxGldyX09",
+        "deezer_url": "https://www.deezer.com/track/756850192",
+        "youtube_music_url": "https://music.youtube.com/watch?v=x1hqXFIvZzA"
+    },
+    {
+        "album": "Piccolo Amore",
+        "artists": [
+            "Ricchi E Poveri"
+        ],
+        "title": "Sarà perché ti amo",
+        "card_number": "00144",
+        "spotify": "6OMjtuz1sYVsHpdeZPUR1n",
+        "spotify_url": "https://open.spotify.com/track/6OMjtuz1sYVsHpdeZPUR1n",
+        "deezer_url": "https://www.deezer.com/track/636405",
+        "youtube_music_url": "https://music.youtube.com/watch?v=m3xfP4M50wo"
+    },
+    {
+        "album": "Funhouse (Expanded Edition)",
+        "artists": [
+            "P!nk"
+        ],
+        "title": "So What",
+        "card_number": "00143",
+        "spotify": "0JiY190vktuhSGN6aqJdrt",
+        "spotify_url": "https://open.spotify.com/track/0JiY190vktuhSGN6aqJdrt",
+        "deezer_url": "https://www.deezer.com/track/1104586482",
+        "youtube_music_url": "https://music.youtube.com/watch?v=FJfFZqTlWrQ"
+    },
+    {
+        "album": "Eterno Agosto",
+        "artists": [
+            "Alvaro Soler"
+        ],
+        "title": "El Mismo Sol",
+        "card_number": "00142",
+        "spotify": "58WOkUl3O9LvLZjdhiQvIX",
+        "spotify_url": "https://open.spotify.com/track/58WOkUl3O9LvLZjdhiQvIX",
+        "deezer_url": "https://www.deezer.com/track/1096588662",
+        "youtube_music_url": "https://music.youtube.com/watch?v=aNHwNreDp3A"
+    },
+    {
+        "album": "Travelling Without Moving (Remastered)",
+        "artists": [
+            "Jamiroquai"
+        ],
+        "title": "Cosmic Girl - Remastered 2013",
+        "card_number": "00141",
+        "spotify": "6y0Etr2KJr0sdcEp7ajoUK",
+        "spotify_url": "https://open.spotify.com/track/6y0Etr2KJr0sdcEp7ajoUK",
+        "deezer_url": "https://www.deezer.com/track/747399482",
+        "youtube_music_url": "https://music.youtube.com/watch?v=LBhjE__IhqE"
+    },
+    {
+        "album": "¿Qué pides tú? (Argentina)",
+        "artists": [
+            "Alex Ubago"
+        ],
+        "title": "Sin miedo a nada",
+        "card_number": "00140",
+        "spotify": "39pJIXIjx9qMkH9LzScpuT",
+        "spotify_url": "https://open.spotify.com/track/39pJIXIjx9qMkH9LzScpuT",
+        "deezer_url": "https://www.deezer.com/track/5615182",
+        "youtube_music_url": "https://music.youtube.com/watch?v=9_IrA8QLsls"
+    },
+    {
+        "album": "Schubert Dip",
+        "artists": [
+            "EMF"
+        ],
+        "title": "Unbelievable",
+        "card_number": "00139",
+        "spotify": "5VYTKiOnHw4iTrB9pG3yum",
+        "spotify_url": "https://open.spotify.com/track/5VYTKiOnHw4iTrB9pG3yum",
+        "deezer_url": "https://www.deezer.com/track/3187708",
+        "youtube_music_url": "https://music.youtube.com/watch?v=sfCLt0kTd5E"
+    },
+    {
+        "album": "Nightflight to Venus",
+        "artists": [
+            "Boney M."
+        ],
+        "title": "Rasputin",
+        "card_number": "00138",
+        "spotify": "5jkFvD4UJrmdoezzT1FRoP",
+        "spotify_url": "https://open.spotify.com/track/5jkFvD4UJrmdoezzT1FRoP",
+        "deezer_url": "https://www.deezer.com/track/1242670642",
+        "youtube_music_url": "https://music.youtube.com/watch?v=16y1AkoZkmQ"
+    },
+    {
+        "album": "The Highlights",
+        "artists": [
+            "The Weeknd",
+            "Kendrick Lamar"
+        ],
+        "title": "Pray For Me",
+        "card_number": "00137",
+        "spotify": "6huNf4dutXRjJyGn7f5BPS",
+        "spotify_url": "https://open.spotify.com/track/6huNf4dutXRjJyGn7f5BPS",
+        "deezer_url": "https://www.deezer.com/track/10434228",
+        "youtube_music_url": "https://music.youtube.com/watch?v=XR7Ev14vUh8"
+    },
+    {
+        "album": "La Niña",
+        "artists": [
+            "Lola Indigo",
+            "TINI",
+            "Belinda"
+        ],
+        "title": "La Niña de la Escuela",
+        "card_number": "00136",
+        "spotify": "1g4cZvi0nLeeIycd0Rkljj",
+        "spotify_url": "https://open.spotify.com/track/1g4cZvi0nLeeIycd0Rkljj",
+        "deezer_url": "https://www.deezer.com/track/1415274362",
+        "youtube_music_url": "https://music.youtube.com/watch?v=0jNg2lG2dQg"
+    },
+    {
+        "album": "True (Special Edition)",
+        "artists": [
+            "Spandau Ballet"
+        ],
+        "title": "True - 2003 Remaster",
+        "card_number": "00135",
+        "spotify": "10I09MLZCY4pK37XxAfkw0",
+        "spotify_url": "https://open.spotify.com/track/10I09MLZCY4pK37XxAfkw0",
+        "deezer_url": "https://www.deezer.com/track/3115218",
+        "youtube_music_url": "https://music.youtube.com/watch?v=sWBueqYA2Es"
+    },
+    {
+        "album": "Appetite For Destruction",
+        "artists": [
+            "Guns N' Roses"
+        ],
+        "title": "Welcome To The Jungle",
+        "card_number": "00134",
+        "spotify": "0G21yYKMZoHa30cYVi1iA8",
+        "spotify_url": "https://open.spotify.com/track/0G21yYKMZoHa30cYVi1iA8",
+        "deezer_url": "https://www.deezer.com/track/86696215",
+        "youtube_music_url": "https://music.youtube.com/watch?v=o1tj2zJ2Wvg"
+    },
+    {
+        "album": "Affection",
+        "artists": [
+            "Lisa Stansfield",
+            "Ian Devaney",
+            "Andy Morris"
+        ],
+        "title": "All Around the World - Remastered",
+        "card_number": "00133",
+        "spotify": "1DapqOfkDAQCiKnvfwKo0g",
+        "spotify_url": "https://open.spotify.com/track/1DapqOfkDAQCiKnvfwKo0g",
+        "deezer_url": "https://www.deezer.com/track/986464042",
+        "youtube_music_url": "https://music.youtube.com/watch?v=bKiI6hiLvK8"
+    },
+    {
+        "album": "Mi Tierra",
+        "artists": [
+            "Gloria Estefan"
+        ],
+        "title": "Mi Tierra",
+        "card_number": "00132",
+        "spotify": "41LiGcvaTkXHyPjfsxKvWv",
+        "spotify_url": "https://open.spotify.com/track/41LiGcvaTkXHyPjfsxKvWv",
+        "deezer_url": "https://www.deezer.com/track/65805718",
+        "youtube_music_url": "https://music.youtube.com/watch?v=WWAWQmhqWGo"
+    },
+    {
+        "album": "30",
+        "artists": [
+            "Adele"
+        ],
+        "title": "Easy On Me",
+        "card_number": "00131",
+        "spotify": "46IZ0fSY2mpAiktS3KOqds",
+        "spotify_url": "https://open.spotify.com/track/46IZ0fSY2mpAiktS3KOqds",
+        "deezer_url": "https://www.deezer.com/track/1892708717",
+        "youtube_music_url": "https://music.youtube.com/watch?v=X-yIEMduRXk"
+    },
+    {
+        "album": "Por la boca vive el pez",
+        "artists": [
+            "Fito y Fitipaldis"
+        ],
+        "title": "Por la boca vive el pez",
+        "card_number": "00130",
+        "spotify": "24UStI5AYA7g5ufFDh3LH0",
+        "spotify_url": "https://open.spotify.com/track/24UStI5AYA7g5ufFDh3LH0",
+        "deezer_url": "https://www.deezer.com/track/778608",
+        "youtube_music_url": "https://music.youtube.com/watch?v=iUXs4Nt3Y7Y"
+    },
+    {
+        "album": "Doll Domination (Deluxe)",
+        "artists": [
+            "The Pussycat Dolls"
+        ],
+        "title": "When I Grow Up",
+        "card_number": "00129",
+        "spotify": "21pySLskKIKrhDziCX5ojQ",
+        "spotify_url": "https://open.spotify.com/track/21pySLskKIKrhDziCX5ojQ",
+        "deezer_url": "https://www.deezer.com/track/619976902",
+        "youtube_music_url": "https://music.youtube.com/watch?v=lxRwEPvL-mQ"
+    },
+    {
+        "album": "Tragic Kingdom",
+        "artists": [
+            "No Doubt"
+        ],
+        "title": "Just A Girl",
+        "card_number": "00128",
+        "spotify": "5lWRaa0fBxDE5yU91npPq7",
+        "spotify_url": "https://open.spotify.com/track/5lWRaa0fBxDE5yU91npPq7",
+        "deezer_url": "https://www.deezer.com/track/1758834557",
+        "youtube_music_url": "https://music.youtube.com/watch?v=PHzOOQfhPFg"
+    },
+    {
+        "album": "Cara A Cara",
+        "artists": [
+            "Los Chunguitos"
+        ],
+        "title": "Dame Veneno",
+        "card_number": "00127",
+        "spotify": "2fS14uyyUM7jVBXxDlMNJ0",
+        "spotify_url": "https://open.spotify.com/track/2fS14uyyUM7jVBXxDlMNJ0",
+        "deezer_url": "https://www.deezer.com/track/130416402",
+        "youtube_music_url": "https://music.youtube.com/watch?v=vrK17taonVY"
+    },
+    {
+        "album": "Agila",
+        "artists": [
+            "Extremoduro"
+        ],
+        "title": "So payaso",
+        "card_number": "00126",
+        "spotify": "5HSpMRUC4m3L3q48to2Kmu",
+        "spotify_url": "https://open.spotify.com/track/5HSpMRUC4m3L3q48to2Kmu",
+        "deezer_url": "https://www.deezer.com/track/1356725682",
+        "youtube_music_url": "https://music.youtube.com/watch?v=1D3tSv9LQlE"
+    },
+    {
+        "album": "It's Not Me, It's You (Special Edition)",
+        "artists": [
+            "Lily Allen"
+        ],
+        "title": "Fuck You",
+        "card_number": "00125",
+        "spotify": "4XE98WRGbBGRZ7jQ9wIwFt",
+        "spotify_url": "https://open.spotify.com/track/4XE98WRGbBGRZ7jQ9wIwFt",
+        "deezer_url": "https://www.deezer.com/track/3026566201",
+        "youtube_music_url": "https://music.youtube.com/watch?v=pc0mxOXbWIU"
+    },
+    {
+        "album": "Parallel Lines (Remastered)",
+        "artists": [
+            "Blondie"
+        ],
+        "title": "One Way Or Another - Remastered 2001",
+        "card_number": "00124",
+        "spotify": "4cQJ27R11K634x5qCOwKW5",
+        "spotify_url": "https://open.spotify.com/track/4cQJ27R11K634x5qCOwKW5",
+        "deezer_url": "https://www.deezer.com/track/3100596",
+        "youtube_music_url": "https://music.youtube.com/watch?v=Fnb1xYDViDs"
+    },
+    {
+        "album": "Estopa",
+        "artists": [
+            "Estopa"
+        ],
+        "title": "Tu Calorro",
+        "card_number": "00123",
+        "spotify": "0DXI6c9tNWsI4tvUftkQN8",
+        "spotify_url": "https://open.spotify.com/track/0DXI6c9tNWsI4tvUftkQN8",
+        "deezer_url": "https://www.deezer.com/track/9943114",
+        "youtube_music_url": "https://music.youtube.com/watch?v=uBFdSyDkPOU"
+    },
+    {
+        "album": "Ceremonials (Original Deluxe Version)",
+        "artists": [
+            "Florence + The Machine"
+        ],
+        "title": "Shake It Out",
+        "card_number": "00122",
+        "spotify": "71iSmEeF0qRVyULABxP75P",
+        "spotify_url": "https://open.spotify.com/track/71iSmEeF0qRVyULABxP75P",
+        "deezer_url": "https://www.deezer.com/track/45594181",
+        "youtube_music_url": "https://music.youtube.com/watch?v=WbN0nX61rIs"
+    },
+    {
+        "album": "#3 Deluxe Version",
+        "artists": [
+            "The Script",
+            "will.i.am"
+        ],
+        "title": "Hall of Fame (feat. will.i.am)",
+        "card_number": "00121",
+        "spotify": "7wMq5n8mYSKlQIGECKUgTX",
+        "spotify_url": "https://open.spotify.com/track/7wMq5n8mYSKlQIGECKUgTX",
+        "deezer_url": "https://www.deezer.com/track/500746742",
+        "youtube_music_url": "https://music.youtube.com/watch?v=mk48xRzuNvA"
+    },
+    {
+        "album": "Thriller",
+        "artists": [
+            "Michael Jackson"
+        ],
+        "title": "Beat It",
+        "card_number": "00120",
+        "spotify": "3BovdzfaX4jb5KFQwoPfAw",
+        "spotify_url": "https://open.spotify.com/track/3BovdzfaX4jb5KFQwoPfAw",
+        "deezer_url": "https://www.deezer.com/track/86694689",
+        "youtube_music_url": "https://music.youtube.com/watch?v=oRdxUFDoQe0"
+    },
+    {
+        "album": "Happier",
+        "artists": [
+            "Marshmello",
+            "Bastille"
+        ],
+        "title": "Happier",
+        "card_number": "00119",
+        "spotify": "7BqHUALzNBTanL6OvsqmC1",
+        "spotify_url": "https://open.spotify.com/track/7BqHUALzNBTanL6OvsqmC1",
+        "deezer_url": "https://www.deezer.com/track/23938371",
+        "youtube_music_url": "https://music.youtube.com/watch?v=m7Bc3pLyij0"
+    },
+    {
+        "album": "Rage Against The Machine - XX (20th Anniversary Special Edition)",
+        "artists": [
+            "Rage Against The Machine"
+        ],
+        "title": "Killing In The Name",
+        "card_number": "00118",
+        "spotify": "59WN2psjkt1tyaxjspN8fp",
+        "spotify_url": "https://open.spotify.com/track/59WN2psjkt1tyaxjspN8fp",
+        "deezer_url": "https://www.deezer.com/track/86694081",
+        "youtube_music_url": "https://music.youtube.com/watch?v=bWXazVhlyxQ"
+    },
+    {
+        "album": "Elephunk",
+        "artists": [
+            "Black Eyed Peas"
+        ],
+        "title": "Let's Get It Started - Spike Mix",
+        "card_number": "00117",
+        "spotify": "4hfIVhq0F0zFUcrbecsYmo",
+        "spotify_url": "https://open.spotify.com/track/4hfIVhq0F0zFUcrbecsYmo",
+        "deezer_url": "https://www.deezer.com/track/646296402",
+        "youtube_music_url": "https://music.youtube.com/watch?v=ZIkzknOPhy4"
+    },
+    {
+        "album": "El Madrileño",
+        "artists": [
+            "C. Tangana",
+            "Gipsy Kings",
+            "Nicolás Reyes",
+            "Tonino Baliardo"
+        ],
+        "title": "Ingobernable",
+        "card_number": "00116",
+        "spotify": "3SK45LddxlEkzI8OWO9Eyo",
+        "spotify_url": "https://open.spotify.com/track/3SK45LddxlEkzI8OWO9Eyo",
+        "deezer_url": "https://www.deezer.com/track/1236513612",
+        "youtube_music_url": "https://music.youtube.com/watch?v=uV0r4a2QVkQ"
+    },
+    {
+        "album": "Barrio Fino (Bonus Track Version)",
+        "artists": [
+            "Daddy Yankee"
+        ],
+        "title": "Lo Que Pasó, Pasó",
+        "card_number": "00115",
+        "spotify": "26QKsGW4hMuwiEE1ftUMHe",
+        "spotify_url": "https://open.spotify.com/track/26QKsGW4hMuwiEE1ftUMHe",
+        "deezer_url": "https://www.deezer.com/track/3165861621",
+        "youtube_music_url": "https://music.youtube.com/watch?v=8MpVPbN3_eE"
+    },
+    {
+        "album": "Warrior (Expanded Edition)",
+        "artists": [
+            "Kesha"
+        ],
+        "title": "Die Young",
+        "card_number": "00114",
+        "spotify": "7EQGXaVSyEDsCWKmUcfpLk",
+        "spotify_url": "https://open.spotify.com/track/7EQGXaVSyEDsCWKmUcfpLk",
+        "deezer_url": "https://www.deezer.com/track/1025904622",
+        "youtube_music_url": "https://music.youtube.com/watch?v=VKmyYEozgac"
+    },
+    {
+        "album": "I Should Coco",
+        "artists": [
+            "Supergrass"
+        ],
+        "title": "Alright",
+        "card_number": "00113",
+        "spotify": "5CQvKyzkWI7TnUu2oB9QZ0",
+        "spotify_url": "https://open.spotify.com/track/5CQvKyzkWI7TnUu2oB9QZ0",
+        "deezer_url": "https://www.deezer.com/track/611716482",
+        "youtube_music_url": "https://music.youtube.com/watch?v=JocAXINz-YE"
+    },
+    {
+        "album": "Costello Music",
+        "artists": [
+            "The Fratellis"
+        ],
+        "title": "Chelsea Dagger",
+        "card_number": "00112",
+        "spotify": "1bCmvezFg5MRcENzCGG1Cy",
+        "spotify_url": "https://open.spotify.com/track/1bCmvezFg5MRcENzCGG1Cy",
+        "deezer_url": "https://www.deezer.com/track/1138633",
+        "youtube_music_url": "https://music.youtube.com/watch?v=sEXHeTcxQy4"
+    },
+    {
+        "album": "Entre el Cielo y el Suelo (Bonus Tracks Edition)",
+        "artists": [
+            "Mecano"
+        ],
+        "title": "Cruz de Navajas",
+        "card_number": "00111",
+        "spotify": "5laT2a6iEq4IxgEDV9dSCr",
+        "spotify_url": "https://open.spotify.com/track/5laT2a6iEq4IxgEDV9dSCr",
+        "deezer_url": "https://www.deezer.com/track/1276524072",
+        "youtube_music_url": "https://music.youtube.com/watch?v=2-HWcpiA8t0"
+    },
+    {
+        "album": "Flashdance (Original Soundtrack From The Motion Picture)",
+        "artists": [
+            "Michael Sembello"
+        ],
+        "title": "Maniac",
+        "card_number": "00110",
+        "spotify": "0QKfiqpEU4h9ycPSzIFwYe",
+        "spotify_url": "https://open.spotify.com/track/0QKfiqpEU4h9ycPSzIFwYe",
+        "deezer_url": "https://www.deezer.com/track/509265",
+        "youtube_music_url": "https://music.youtube.com/watch?v=6GCNUeTFSbA"
+    },
+    {
+        "album": "Tension (Deluxe)",
+        "artists": [
+            "Kylie Minogue"
+        ],
+        "title": "Padam Padam",
+        "card_number": "00109",
+        "spotify": "44MuEHdlociG8KjhPhOVw5",
+        "spotify_url": "https://open.spotify.com/track/44MuEHdlociG8KjhPhOVw5",
+        "deezer_url": "https://www.deezer.com/track/106237698",
+        "youtube_music_url": "https://music.youtube.com/watch?v=p6Cnazi_Fi0"
+    },
+    {
+        "album": "Jon Secada",
+        "artists": [
+            "Jon Secada"
+        ],
+        "title": "Otro Día Más Sin Verte",
+        "card_number": "00108",
+        "spotify": "7i38EXhbFJjF5tGvTsJMmx",
+        "spotify_url": "https://open.spotify.com/track/7i38EXhbFJjF5tGvTsJMmx",
+        "deezer_url": "https://www.deezer.com/track/3734412",
+        "youtube_music_url": "https://music.youtube.com/watch?v=0t5iCwpuD8I"
+    },
+    {
+        "album": "Wild Ones",
+        "artists": [
+            "Flo Rida"
+        ],
+        "title": "Good Feeling",
+        "card_number": "00107",
+        "spotify": "2LEF1A8DOZ9wRYikWgVlZ8",
+        "spotify_url": "https://open.spotify.com/track/2LEF1A8DOZ9wRYikWgVlZ8",
+        "deezer_url": "https://www.deezer.com/track/113042394",
+        "youtube_music_url": "https://music.youtube.com/watch?v=3OnnDqH6Wj8"
+    },
+    {
+        "album": "The Essential Billy Joel 3.0",
+        "artists": [
+            "Billy Joel"
+        ],
+        "title": "Uptown Girl",
+        "card_number": "00106",
+        "spotify": "01DBoQsngOhbcVFWKkiFOz",
+        "spotify_url": "https://open.spotify.com/track/01DBoQsngOhbcVFWKkiFOz",
+        "deezer_url": "https://www.deezer.com/track/7170243",
+        "youtube_music_url": "https://music.youtube.com/watch?v=hCuMWrfXG4E"
+    },
+    {
+        "album": "Blood Sugar Sex Magik (Deluxe Edition)",
+        "artists": [
+            "Red Hot Chili Peppers"
+        ],
+        "title": "Give It Away",
+        "card_number": "00105",
+        "spotify": "0uppYCG86ajpV2hSR3dJJ0",
+        "spotify_url": "https://open.spotify.com/track/0uppYCG86ajpV2hSR3dJJ0",
+        "deezer_url": "https://www.deezer.com/track/725837",
+        "youtube_music_url": "https://music.youtube.com/watch?v=Mr_uHJPUlO8"
+    },
+    {
+        "album": "Bam Bam (feat. Ed Sheeran)",
+        "artists": [
+            "Camila Cabello",
+            "Ed Sheeran"
+        ],
+        "title": "Bam Bam (feat. Ed Sheeran)",
+        "card_number": "00104",
+        "spotify": "0QBzMgT7NIeoCYy3sJCof1",
+        "spotify_url": "https://open.spotify.com/track/0QBzMgT7NIeoCYy3sJCof1",
+        "deezer_url": "https://www.deezer.com/track/1777965177",
+        "youtube_music_url": "https://music.youtube.com/watch?v=-8VfKZCOo_I"
+    },
+    {
+        "album": "Estados de Animo",
+        "artists": [
+            "El Canto Del Loco"
+        ],
+        "title": "Insoportable",
+        "card_number": "00103",
+        "spotify": "6FstWkgRdHagqJ6qjDbiK0",
+        "spotify_url": "https://open.spotify.com/track/6FstWkgRdHagqJ6qjDbiK0",
+        "deezer_url": "https://www.deezer.com/track/2451655",
+        "youtube_music_url": "https://music.youtube.com/watch?v=I_SwnHVxvc8"
+    },
+    {
+        "album": "Body Wishes",
+        "artists": [
+            "Rod Stewart"
+        ],
+        "title": "Baby Jane - 2008 Remaster",
+        "card_number": "00102",
+        "spotify": "1wrT33b6HuKlpk9ziscEUY",
+        "spotify_url": "https://open.spotify.com/track/1wrT33b6HuKlpk9ziscEUY",
+        "deezer_url": "https://www.deezer.com/track/2550611",
+        "youtube_music_url": "https://music.youtube.com/watch?v=dxl2r6GuL2w"
+    },
+    {
+        "album": "Maneras De Vivir",
+        "artists": [
+            "Leño"
+        ],
+        "title": "Maneras de Vivir (Single Estudio)",
+        "card_number": "00101",
+        "spotify": "7kCiAaismDVaCjpyGF3YJB",
+        "spotify_url": "https://open.spotify.com/track/7kCiAaismDVaCjpyGF3YJB",
+        "deezer_url": "https://www.deezer.com/track/2455865",
+        "youtube_music_url": "https://music.youtube.com/watch?v=TP-xRGDxg2g"
+    },
+    {
+        "album": "I'm Your Baby Tonight (EP)",
+        "artists": [
+            "Whitney Houston"
+        ],
+        "title": "Higher Love - 1990 Original Mix",
+        "card_number": "00100",
+        "spotify": "6vqEctRr6hDFEeIkFUNWUf",
+        "spotify_url": "https://open.spotify.com/track/6vqEctRr6hDFEeIkFUNWUf",
+        "deezer_url": "https://www.deezer.com/track/2386328795",
+        "youtube_music_url": "https://music.youtube.com/watch?v=EpSi7r1i5mM"
+    },
+    {
+        "album": "The Joshua Tree (Super Deluxe)",
+        "artists": [
+            "U2"
+        ],
+        "title": "I Still Haven't Found What I'm Looking For",
+        "card_number": "00099",
+        "spotify": "6wpGqhRvJGNNXwWlPmkMyO",
+        "spotify_url": "https://open.spotify.com/track/6wpGqhRvJGNNXwWlPmkMyO",
+        "deezer_url": "https://www.deezer.com/track/63372018",
+        "youtube_music_url": "https://music.youtube.com/watch?v=e3-5YC_oHjE"
+    },
+    {
+        "album": "Rebel Yell",
+        "artists": [
+            "Billy Idol"
+        ],
+        "title": "Rebel Yell",
+        "card_number": "00098",
+        "spotify": "4TIJ7zSBNejpoIPaWpWRKc",
+        "spotify_url": "https://open.spotify.com/track/4TIJ7zSBNejpoIPaWpWRKc",
+        "deezer_url": "https://www.deezer.com/track/137682307",
+        "youtube_music_url": "https://music.youtube.com/watch?v=VdphvuyaV_I"
+    },
+    {
+        "album": "70's Funk Classics",
+        "artists": [
+            "James Brown",
+            "The Original J.B.s"
+        ],
+        "title": "Get Up I Feel Like Being Like A Sex Machine, Pts. 1 & 2",
+        "card_number": "00097",
+        "spotify": "6hpmTwgNCz81H2bFEREx29",
+        "spotify_url": "https://open.spotify.com/track/6hpmTwgNCz81H2bFEREx29",
+        "deezer_url": "https://www.deezer.com/track/548876882",
+        "youtube_music_url": "https://music.youtube.com/watch?v=hY_LBqmyNrk"
+    },
+    {
+        "album": "Celebration (double disc version)",
+        "artists": [
+            "Madonna"
+        ],
+        "title": "Material Girl",
+        "card_number": "00096",
+        "spotify": "22sLuJYcvZOSoLLRYev1s5",
+        "spotify_url": "https://open.spotify.com/track/22sLuJYcvZOSoLLRYev1s5",
+        "deezer_url": "https://www.deezer.com/track/723861",
+        "youtube_music_url": "https://music.youtube.com/watch?v=6p-lDYPR2P8"
+    },
+    {
+        "album": "SOUR",
+        "artists": [
+            "Olivia Rodrigo"
+        ],
+        "title": "good 4 u",
+        "card_number": "00095",
+        "spotify": "4ZtFanR9U6ndgddUvNcjcG",
+        "spotify_url": "https://open.spotify.com/track/4ZtFanR9U6ndgddUvNcjcG",
+        "deezer_url": "https://www.deezer.com/track/1378342622",
+        "youtube_music_url": "https://music.youtube.com/watch?v=gNi_6U5Pm_o"
+    },
+    {
+        "album": "Talk That Talk",
+        "artists": [
+            "Rihanna",
+            "Calvin Harris"
+        ],
+        "title": "We Found Love",
+        "card_number": "00094",
+        "spotify": "6qn9YLKt13AGvpq9jfO8py",
+        "spotify_url": "https://open.spotify.com/track/6qn9YLKt13AGvpq9jfO8py",
+        "deezer_url": "https://www.deezer.com/track/120726816",
+        "youtube_music_url": "https://music.youtube.com/watch?v=tg00YEETFzg"
+    },
+    {
+        "album": "Delilah",
+        "artists": [
+            "Tom Jones"
+        ],
+        "title": "Delilah",
+        "card_number": "00093",
+        "spotify": "2v8B8d17Xxu9uLU5sNiHSL",
+        "spotify_url": "https://open.spotify.com/track/2v8B8d17Xxu9uLU5sNiHSL",
+        "deezer_url": "https://www.deezer.com/track/3058860",
+        "youtube_music_url": "https://music.youtube.com/watch?v=MIIU9xkGAMs"
+    },
+    {
+        "album": "Saints & Sinners",
+        "artists": [
+            "All Saints"
+        ],
+        "title": "Pure Shores",
+        "card_number": "00092",
+        "spotify": "6ZLGthToczpvnL5Eoy6yrY",
+        "spotify_url": "https://open.spotify.com/track/6ZLGthToczpvnL5Eoy6yrY",
+        "deezer_url": "https://www.deezer.com/track/71210746",
+        "youtube_music_url": "https://music.youtube.com/watch?v=dVNdTXEJv1A"
+    },
+    {
+        "album": "Illuminate",
+        "artists": [
+            "Shawn Mendes"
+        ],
+        "title": "Treat You Better",
+        "card_number": "00091",
+        "spotify": "3QGsuHI8jO1Rx4JWLUh9jd",
+        "spotify_url": "https://open.spotify.com/track/3QGsuHI8jO1Rx4JWLUh9jd",
+        "deezer_url": "https://www.deezer.com/track/351594981",
+        "youtube_music_url": "https://music.youtube.com/watch?v=lY2yjAdbvdQ"
+    },
+    {
+        "album": "Back To Black (Deluxe Edition)",
+        "artists": [
+            "Amy Winehouse"
+        ],
+        "title": "Back To Black",
+        "card_number": "00090",
+        "spotify": "3FAclTFfvUuQYnEsptbK8w",
+        "spotify_url": "https://open.spotify.com/track/3FAclTFfvUuQYnEsptbK8w",
+        "deezer_url": "https://www.deezer.com/track/1774644017",
+        "youtube_music_url": "https://music.youtube.com/watch?v=TJAfLE39ZZ8"
+    },
+    {
+        "album": "Different Class",
+        "artists": [
+            "Pulp"
+        ],
+        "title": "Common People - Full Length Version",
+        "card_number": "00089",
+        "spotify": "2fXKyAyPrEa24c6PJyqznF",
+        "spotify_url": "https://open.spotify.com/track/2fXKyAyPrEa24c6PJyqznF",
+        "deezer_url": "https://www.deezer.com/track/910074",
+        "youtube_music_url": "https://music.youtube.com/watch?v=TZOdKdxP8Wk"
+    },
+    {
+        "album": "The Supremes A' Go-Go (Expanded Edition)",
+        "artists": [
+            "The Supremes"
+        ],
+        "title": "You Can't Hurry Love",
+        "card_number": "00088",
+        "spotify": "1OppEieGNdItZbE14gLBEv",
+        "spotify_url": "https://open.spotify.com/track/1OppEieGNdItZbE14gLBEv",
+        "deezer_url": "https://www.deezer.com/track/3029916881",
+        "youtube_music_url": "https://music.youtube.com/watch?v=C9IwBJYTwQ0"
+    },
+    {
+        "album": "What A Man Gotta Do",
+        "artists": [
+            "Jonas Brothers"
+        ],
+        "title": "What A Man Gotta Do",
+        "card_number": "00087",
+        "spotify": "4wNIkl5XGiAACjFBlDWuSd",
+        "spotify_url": "https://open.spotify.com/track/4wNIkl5XGiAACjFBlDWuSd",
+        "deezer_url": "https://www.deezer.com/track/854470322",
+        "youtube_music_url": "https://music.youtube.com/watch?v=XejVB_fba04"
+    },
+    {
+        "album": "Super 20",
+        "artists": [
+            "Nino Bravo"
+        ],
+        "title": "Un Beso Y Una Flor",
+        "card_number": "00086",
+        "spotify": "5IU4JO2cpa0wPK8oQWFfCr",
+        "spotify_url": "https://open.spotify.com/track/5IU4JO2cpa0wPK8oQWFfCr",
+        "deezer_url": "https://www.deezer.com/track/2270585",
+        "youtube_music_url": "https://music.youtube.com/watch?v=d65A4aD2hmg"
+    },
+    {
+        "album": "Felicità Tà Tà",
+        "artists": [
+            "Raffaella Carrà"
+        ],
+        "title": "Rumore",
+        "card_number": "00085",
+        "spotify": "0k9GFwbDTBUhN8hIi3YSMT",
+        "spotify_url": "https://open.spotify.com/track/0k9GFwbDTBUhN8hIi3YSMT",
+        "deezer_url": "https://www.deezer.com/track/426704802",
+        "youtube_music_url": "https://music.youtube.com/watch?v=mAXLeF_hpmk"
+    },
+    {
+        "album": "Bustamante",
+        "artists": [
+            "Bustamante",
+            "Alex Casademunt"
+        ],
+        "title": "Dos Hombres Y Un Destino",
+        "card_number": "00084",
+        "spotify": "2TMhNVnegm2SMQ6lvhaxdm",
+        "spotify_url": "https://open.spotify.com/track/2TMhNVnegm2SMQ6lvhaxdm",
+        "deezer_url": "https://www.deezer.com/track/6953650",
+        "youtube_music_url": "https://music.youtube.com/watch?v=PkVBYuaWPPE"
+    },
+    {
+        "album": "Sound Loaded",
+        "artists": [
+            "Ricky Martin"
+        ],
+        "title": "She Bangs - English Version",
+        "card_number": "00083",
+        "spotify": "1uPrIHgYztXSkkcts9jet8",
+        "spotify_url": "https://open.spotify.com/track/1uPrIHgYztXSkkcts9jet8",
+        "deezer_url": "https://www.deezer.com/track/830084",
+        "youtube_music_url": "https://music.youtube.com/watch?v=5ihtX86JzmA"
+    },
+    {
+        "album": "Voulez-Vous",
+        "artists": [
+            "ABBA"
+        ],
+        "title": "Gimme! Gimme! Gimme! (A Man After Midnight)",
+        "card_number": "00082",
+        "spotify": "3vkQ5DAB1qQMYO4Mr9zJN6",
+        "spotify_url": "https://open.spotify.com/track/3vkQ5DAB1qQMYO4Mr9zJN6",
+        "deezer_url": "https://www.deezer.com/track/2626913072",
+        "youtube_music_url": "https://music.youtube.com/watch?v=XEjLoHdbVeE"
+    },
+    {
+        "album": "No Strings Attached",
+        "artists": [
+            "*NSYNC"
+        ],
+        "title": "It's Gonna Be Me",
+        "card_number": "00081",
+        "spotify": "35zGjsxI020C2NPKp2fzS7",
+        "spotify_url": "https://open.spotify.com/track/35zGjsxI020C2NPKp2fzS7",
+        "deezer_url": "https://www.deezer.com/track/632488",
+        "youtube_music_url": "https://music.youtube.com/watch?v=GQMlWwIXg3M"
+    },
+    {
+        "album": "Musica Moderna",
+        "artists": [
+            "Radio Futura"
+        ],
+        "title": "Enamorado de la moda juvenil",
+        "card_number": "00080",
+        "spotify": "6dC0U0ZJrmSw05sdnjDpGJ",
+        "spotify_url": "https://open.spotify.com/track/6dC0U0ZJrmSw05sdnjDpGJ",
+        "deezer_url": "https://www.deezer.com/track/3123478",
+        "youtube_music_url": "https://music.youtube.com/watch?v=-iob5nbQ0Sw"
+    },
+    {
+        "album": "Boombastic",
+        "artists": [
+            "Shaggy"
+        ],
+        "title": "Boombastic",
+        "card_number": "00079",
+        "spotify": "4fxF8ljwryMZX5c9EKrLFE",
+        "spotify_url": "https://open.spotify.com/track/4fxF8ljwryMZX5c9EKrLFE",
+        "deezer_url": "https://www.deezer.com/track/2122526",
+        "youtube_music_url": "https://music.youtube.com/watch?v=6W5pq4bIzIw"
+    },
+    {
+        "album": "My Head Is An Animal",
+        "artists": [
+            "Of Monsters and Men"
+        ],
+        "title": "Little Talks",
+        "card_number": "00078",
+        "spotify": "2ihCaVdNZmnHZWt0fvAM7B",
+        "spotify_url": "https://open.spotify.com/track/2ihCaVdNZmnHZWt0fvAM7B",
+        "deezer_url": "https://www.deezer.com/track/1662589072",
+        "youtube_music_url": "https://music.youtube.com/watch?v=ghb6eDopW8I"
+    },
+    {
+        "album": "Rather Be (feat. Jess Glynne)",
+        "artists": [
+            "Clean Bandit",
+            "Jess Glynne"
+        ],
+        "title": "Rather Be (feat. Jess Glynne)",
+        "card_number": "00077",
+        "spotify": "3s4U7OHV7gnj42VV72eSZ6",
+        "spotify_url": "https://open.spotify.com/track/3s4U7OHV7gnj42VV72eSZ6",
+        "deezer_url": "https://www.deezer.com/track/1587111942",
+        "youtube_music_url": "https://music.youtube.com/watch?v=jUjDcqdvCrk"
+    },
+    {
+        "album": "Privado",
+        "artists": [
+            "Gabinete Caligari"
+        ],
+        "title": "La culpa fue del cha-cha-chá",
+        "card_number": "00076",
+        "spotify": "4v2WZwihAzu0RZFUMl4y8l",
+        "spotify_url": "https://open.spotify.com/track/4v2WZwihAzu0RZFUMl4y8l",
+        "deezer_url": "https://www.deezer.com/track/1265693152",
+        "youtube_music_url": "https://music.youtube.com/watch?v=cozRkjztWBQ"
+    },
+    {
+        "album": "Tattoos",
+        "artists": [
+            "Jason Derulo",
+            "2 Chainz"
+        ],
+        "title": "Talk Dirty (feat. 2 Chainz)",
+        "card_number": "00075",
+        "spotify": "5l3CML2OnzfNs5RfVgbcLt",
+        "spotify_url": "https://open.spotify.com/track/5l3CML2OnzfNs5RfVgbcLt",
+        "deezer_url": "https://www.deezer.com/track/462468792",
+        "youtube_music_url": "https://music.youtube.com/watch?v=RbtPXFlZlHg"
+    },
+    {
+        "album": "Hey Mama (feat. Nicki Minaj, Bebe Rexha & Afrojack)",
+        "artists": [
+            "David Guetta",
+            "AFROJACK",
+            "Bebe Rexha",
+            "Nicki Minaj"
+        ],
+        "title": "Hey Mama (feat. Nicki Minaj, Bebe Rexha & Afrojack) - Afrojack Remix",
+        "card_number": "00074",
+        "spotify": "5Ok52kEHxudhX1n2RvqyIe",
+        "spotify_url": "https://open.spotify.com/track/5Ok52kEHxudhX1n2RvqyIe",
+        "deezer_url": "https://www.deezer.com/track/99469540",
+        "youtube_music_url": "https://music.youtube.com/watch?v=iU4M6PtN3Cc"
+    },
+    {
+        "album": "La Ultima Tentación",
+        "artists": [
+            "Amistades Peligrosas"
+        ],
+        "title": "Me haces tanto bien",
+        "card_number": "00073",
+        "spotify": "5PM8SxOW02F9ChM0BLjALX",
+        "spotify_url": "https://open.spotify.com/track/5PM8SxOW02F9ChM0BLjALX",
+        "deezer_url": "https://www.deezer.com/track/3376535",
+        "youtube_music_url": "https://music.youtube.com/watch?v=bWQul83KtqI"
+    },
+    {
+        "album": "Antropop",
+        "artists": [
+            "OBK"
+        ],
+        "title": "El cielo no entiende",
+        "card_number": "00072",
+        "spotify": "648Myn15scOB98wpZ9jd3c",
+        "spotify_url": "https://open.spotify.com/track/648Myn15scOB98wpZ9jd3c",
+        "deezer_url": "https://www.deezer.com/track/3320487",
+        "youtube_music_url": "https://music.youtube.com/watch?v=_hrGNQ0k3LA"
+    },
+    {
+        "album": "A Day Without Rain",
+        "artists": [
+            "Enya"
+        ],
+        "title": "Only Time",
+        "card_number": "00071",
+        "spotify": "6FLwmdmW77N1Pxb1aWsZmO",
+        "spotify_url": "https://open.spotify.com/track/6FLwmdmW77N1Pxb1aWsZmO",
+        "deezer_url": "https://www.deezer.com/track/61520913",
+        "youtube_music_url": "https://music.youtube.com/watch?v=7wfYIMyS_dI"
+    },
+    {
+        "album": "Senderos De Traición - Edición Especial",
+        "artists": [
+            "Heroes Del Silencio"
+        ],
+        "title": "Maldito duende",
+        "card_number": "00070",
+        "spotify": "7vcDJCAO356RYkCfiUozmE",
+        "spotify_url": "https://open.spotify.com/track/7vcDJCAO356RYkCfiUozmE",
+        "deezer_url": "https://www.deezer.com/track/3113252",
+        "youtube_music_url": "https://music.youtube.com/watch?v=SqB4FSettTI"
+    },
+    {
+        "album": "I AM...SASHA FIERCE - Platinum Edition",
+        "artists": [
+            "Beyoncé"
+        ],
+        "title": "Halo",
+        "card_number": "00069",
+        "spotify": "2CvOqDpQIMw69cCzWqr5yr",
+        "spotify_url": "https://open.spotify.com/track/2CvOqDpQIMw69cCzWqr5yr",
+        "deezer_url": "https://www.deezer.com/track/118693972",
+        "youtube_music_url": "https://music.youtube.com/watch?v=Y9ycSXqtkQ4"
+    },
+    {
+        "album": "Are You Gonna Go My Way",
+        "artists": [
+            "Lenny Kravitz"
+        ],
+        "title": "Are You Gonna Go My Way",
+        "card_number": "00068",
+        "spotify": "45Ia1U4KtIjAPPU7Wv1Sea",
+        "spotify_url": "https://open.spotify.com/track/45Ia1U4KtIjAPPU7Wv1Sea",
+        "deezer_url": "https://www.deezer.com/track/3107395",
+        "youtube_music_url": "https://music.youtube.com/watch?v=8LhCd1W2V0Q"
+    },
+    {
+        "album": "Beggar on a Beach of Gold",
+        "artists": [
+            "Mike + The Mechanics"
+        ],
+        "title": "Over My Shoulder",
+        "card_number": "00067",
+        "spotify": "08cshUZIlQMJRKPTLnaT9F",
+        "spotify_url": "https://open.spotify.com/track/08cshUZIlQMJRKPTLnaT9F",
+        "deezer_url": "https://www.deezer.com/track/3266943991",
+        "youtube_music_url": "https://music.youtube.com/watch?v=H7m1PO7wvYM"
+    },
+    {
+        "album": "The Age of Consent",
+        "artists": [
+            "Bronski Beat"
+        ],
+        "title": "Why ?",
+        "card_number": "00066",
+        "spotify": "7vOLJwP5O0woITaIQWOoUX",
+        "spotify_url": "https://open.spotify.com/track/7vOLJwP5O0woITaIQWOoUX",
+        "deezer_url": "https://www.deezer.com/track/934193472",
+        "youtube_music_url": "https://music.youtube.com/watch?v=0uH1NRJcyro"
+    },
+    {
+        "album": "Fush Yu Mang (20th Anniversary Edition)",
+        "artists": [
+            "Smash Mouth"
+        ],
+        "title": "Walkin' On The Sun",
+        "card_number": "00065",
+        "spotify": "4TQeNHx85xcP9YRkvJC6K1",
+        "spotify_url": "https://open.spotify.com/track/4TQeNHx85xcP9YRkvJC6K1",
+        "deezer_url": "https://www.deezer.com/track/436348462",
+        "youtube_music_url": "https://music.youtube.com/watch?v=LQj--Kjn0z8"
+    },
+    {
+        "album": "Hombres G (Edición 30 Aniversario)",
+        "artists": [
+            "Hombres G"
+        ],
+        "title": "Venezia",
+        "card_number": "00064",
+        "spotify": "1wncA7mz0ntqvZ8UzFokGk",
+        "spotify_url": "https://open.spotify.com/track/1wncA7mz0ntqvZ8UzFokGk",
+        "deezer_url": "https://www.deezer.com/track/106841880",
+        "youtube_music_url": "https://music.youtube.com/watch?v=jvWP6JR1saE"
+    },
+    {
+        "album": "MOTOMAMI",
+        "artists": [
+            "ROSALÍA",
+            "The Weeknd"
+        ],
+        "title": "LA FAMA",
+        "card_number": "00063",
+        "spotify": "6Y46tOTRhkBamosyuWa6YX",
+        "spotify_url": "https://open.spotify.com/track/6Y46tOTRhkBamosyuWa6YX",
+        "deezer_url": "https://www.deezer.com/track/2218028717",
+        "youtube_music_url": "https://music.youtube.com/watch?v=e-CEd6xrRQc"
+    },
+    {
+        "album": "Divinely Uninspired To A Hellish Extent (Extended Edition)",
+        "artists": [
+            "Lewis Capaldi"
+        ],
+        "title": "Before You Go",
+        "card_number": "00062",
+        "spotify": "2gMXnyrvIjhVBUZwvLZDMP",
+        "spotify_url": "https://open.spotify.com/track/2gMXnyrvIjhVBUZwvLZDMP",
+        "deezer_url": "https://www.deezer.com/track/100823430",
+        "youtube_music_url": "https://music.youtube.com/watch?v=Jtauh8GcxBY"
+    },
+    {
+        "album": "MAÑANA SERÁ BONITO",
+        "artists": [
+            "KAROL G"
+        ],
+        "title": "PROVENZA",
+        "card_number": "00061",
+        "spotify": "3HqcNJdZ2seoGxhn0wVNDK",
+        "spotify_url": "https://open.spotify.com/track/3HqcNJdZ2seoGxhn0wVNDK",
+        "deezer_url": "https://www.deezer.com/track/1721634237",
+        "youtube_music_url": "https://music.youtube.com/watch?v=ca48oMV59LU"
+    },
+    {
+        "album": "Fragments of Freedom",
+        "artists": [
+            "Morcheeba"
+        ],
+        "title": "Rome Wasn't Built in a Day",
+        "card_number": "00060",
+        "spotify": "6lsumzVFKP9SnfKcuGwqVp",
+        "spotify_url": "https://open.spotify.com/track/6lsumzVFKP9SnfKcuGwqVp",
+        "deezer_url": "https://www.deezer.com/track/764172",
+        "youtube_music_url": "https://music.youtube.com/watch?v=FLGJXbl6g8o"
+    },
+    {
+        "album": "All the Lost Souls",
+        "artists": [
+            "James Blunt"
+        ],
+        "title": "1973",
+        "card_number": "00059",
+        "spotify": "1BV0m40U0M4t1SLIsDnwZl",
+        "spotify_url": "https://open.spotify.com/track/1BV0m40U0M4t1SLIsDnwZl",
+        "deezer_url": "https://www.deezer.com/track/2390068445",
+        "youtube_music_url": "https://music.youtube.com/watch?v=uWeqeQkjLto"
+    },
+    {
+        "album": "Más",
+        "artists": [
+            "Alejandro Sanz"
+        ],
+        "title": "Y, ¿Si fuera ella?",
+        "card_number": "00058",
+        "spotify": "1DmlUpnkg4N1VWquSoffF1",
+        "spotify_url": "https://open.spotify.com/track/1DmlUpnkg4N1VWquSoffF1",
+        "deezer_url": "https://www.deezer.com/track/361103291",
+        "youtube_music_url": "https://music.youtube.com/watch?v=taVlIW3G1VQ"
+    },
+    {
+        "album": "Greatest Hits",
+        "artists": [
+            "Eurythmics",
+            "Annie Lennox",
+            "Dave Stewart"
+        ],
+        "title": "There Must Be an Angel (Playing With My Heart)",
+        "card_number": "00057",
+        "spotify": "1YJ4vpxPL6Wgo8gmRnvqSp",
+        "spotify_url": "https://open.spotify.com/track/1YJ4vpxPL6Wgo8gmRnvqSp",
+        "deezer_url": "https://www.deezer.com/track/15645263",
+        "youtube_music_url": "https://music.youtube.com/watch?v=RCdneDxFRYQ"
+    },
+    {
+        "album": "greedy",
+        "artists": [
+            "Tate McRae"
+        ],
+        "title": "greedy",
+        "card_number": "00056",
+        "spotify": "3rUGC1vUpkDG9CZFHMur1t",
+        "spotify_url": "https://open.spotify.com/track/3rUGC1vUpkDG9CZFHMur1t",
+        "deezer_url": "https://www.deezer.com/track/1886061237",
+        "youtube_music_url": "https://music.youtube.com/watch?v=To4SWGZkEPk"
+    },
+    {
+        "album": "In The Lonely Hour",
+        "artists": [
+            "Sam Smith"
+        ],
+        "title": "Stay With Me",
+        "card_number": "00055",
+        "spotify": "5Nm9ERjJZ5oyfXZTECKmRt",
+        "spotify_url": "https://open.spotify.com/track/5Nm9ERjJZ5oyfXZTECKmRt",
+        "deezer_url": "https://www.deezer.com/track/1619426",
+        "youtube_music_url": "https://music.youtube.com/watch?v=pB-5XG-DbAA"
+    },
+    {
+        "album": "Too Low For Zero",
+        "artists": [
+            "Elton John"
+        ],
+        "title": "I'm Still Standing",
+        "card_number": "00054",
+        "spotify": "1jDJFeK9x3OZboIAHsY9k2",
+        "spotify_url": "https://open.spotify.com/track/1jDJFeK9x3OZboIAHsY9k2",
+        "deezer_url": "https://www.deezer.com/track/1171163",
+        "youtube_music_url": "https://music.youtube.com/watch?v=ZHwVBirqD2s"
+    },
+    {
+        "album": "Funk Wav Bounces Vol.1",
+        "artists": [
+            "Calvin Harris",
+            "Pharrell Williams",
+            "Katy Perry",
+            "Big Sean",
+            "Funk Wav"
+        ],
+        "title": "Feels (feat. Pharrell Williams, Katy Perry & Big Sean)",
+        "card_number": "00053",
+        "spotify": "5bcTCxgc7xVfSaMV3RuVke",
+        "spotify_url": "https://open.spotify.com/track/5bcTCxgc7xVfSaMV3RuVke",
+        "deezer_url": "https://www.deezer.com/track/69122700",
+        "youtube_music_url": "https://music.youtube.com/watch?v=ozv4q2ov3Mk"
+    },
+    {
+        "album": "=",
+        "artists": [
+            "Ed Sheeran"
+        ],
+        "title": "Shivers",
+        "card_number": "00052",
+        "spotify": "50nfwKoDiSYg8zOCREWAm5",
+        "spotify_url": "https://open.spotify.com/track/50nfwKoDiSYg8zOCREWAm5",
+        "deezer_url": "https://www.deezer.com/track/6132724",
+        "youtube_music_url": "https://music.youtube.com/watch?v=Il0S8BoucSA"
+    },
+    {
+        "album": "Face Value (Deluxe Editon)",
+        "artists": [
+            "Phil Collins"
+        ],
+        "title": "In The Air Tonight - 2015 Remastered",
+        "card_number": "00051",
+        "spotify": "18AXbzPzBS8Y3AkgSxzJPb",
+        "spotify_url": "https://open.spotify.com/track/18AXbzPzBS8Y3AkgSxzJPb",
+        "deezer_url": "https://www.deezer.com/track/115180790",
+        "youtube_music_url": "https://music.youtube.com/watch?v=rvUjjtZ_opk"
+    },
+    {
+        "album": "The Velvet Rope",
+        "artists": [
+            "Janet Jackson"
+        ],
+        "title": "Together Again",
+        "card_number": "00050",
+        "spotify": "1aJnGme5ZRltYTp8FJ52eZ",
+        "spotify_url": "https://open.spotify.com/track/1aJnGme5ZRltYTp8FJ52eZ",
+        "deezer_url": "https://www.deezer.com/track/1939641407",
+        "youtube_music_url": "https://music.youtube.com/watch?v=7SXKHiPQPhk"
+    },
+    {
+        "album": "Justified",
+        "artists": [
+            "Justin Timberlake"
+        ],
+        "title": "Cry Me a River",
+        "card_number": "00049",
+        "spotify": "7Lf7oSEVdzZqTA0kEDSlS5",
+        "spotify_url": "https://open.spotify.com/track/7Lf7oSEVdzZqTA0kEDSlS5",
+        "deezer_url": "https://www.deezer.com/track/969494",
+        "youtube_music_url": "https://music.youtube.com/watch?v=DksSPZTZES0"
+    },
+    {
+        "album": "7",
+        "artists": [
+            "Madness"
+        ],
+        "title": "It Must Be Love",
+        "card_number": "00048",
+        "spotify": "0yvomNP4HdLSmqHXkhCsgS",
+        "spotify_url": "https://open.spotify.com/track/0yvomNP4HdLSmqHXkhCsgS",
+        "deezer_url": "https://www.deezer.com/track/83831168",
+        "youtube_music_url": "https://music.youtube.com/watch?v=vmezIIrFQmY"
+    },
+    {
+        "album": "Ave Fénix",
+        "artists": [
+            "Raphael"
+        ],
+        "title": "Escándalo",
+        "card_number": "00047",
+        "spotify": "3xbymP6jIcdN0O2PB420bz",
+        "spotify_url": "https://open.spotify.com/track/3xbymP6jIcdN0O2PB420bz",
+        "deezer_url": "https://www.deezer.com/track/2188640537",
+        "youtube_music_url": "https://music.youtube.com/watch?v=_HzdGDMGGRc"
+    },
+    {
+        "album": "All Things Must Pass (2014 Remaster)",
+        "artists": [
+            "George Harrison"
+        ],
+        "title": "My Sweet Lord (2014 Remaster)",
+        "card_number": "00046",
+        "spotify": "0KZodeWxqxd88F9wY1cqgs",
+        "spotify_url": "https://open.spotify.com/track/0KZodeWxqxd88F9wY1cqgs",
+        "deezer_url": "https://www.deezer.com/track/2141158337",
+        "youtube_music_url": "https://music.youtube.com/watch?v=1EORbL8N-R8"
+    },
+    {
+        "album": "Massive Hits!: Alternative",
+        "artists": [
+            "The Dandy Warhols"
+        ],
+        "title": "Bohemian Like You",
+        "card_number": "00045",
+        "spotify": "2ukGu6BitcHW61wMPrYHy2",
+        "spotify_url": "https://open.spotify.com/track/2ukGu6BitcHW61wMPrYHy2",
+        "deezer_url": "https://www.deezer.com/track/63477691",
+        "youtube_music_url": "https://music.youtube.com/watch?v=CU3mc0yvRNk"
+    },
+    {
+        "album": "Highway to Hell",
+        "artists": [
+            "AC/DC"
+        ],
+        "title": "Highway to Hell",
+        "card_number": "00044",
+        "spotify": "2zYzyRzz6pRmhPzyfMEC8s",
+        "spotify_url": "https://open.spotify.com/track/2zYzyRzz6pRmhPzyfMEC8s",
+        "deezer_url": "https://www.deezer.com/track/12695383",
+        "youtube_music_url": "https://music.youtube.com/watch?v=l482T0yNkeo"
+    },
+    {
+        "album": "Highway 61 Revisited",
+        "artists": [
+            "Bob Dylan"
+        ],
+        "title": "Like a Rolling Stone",
+        "card_number": "00043",
+        "spotify": "3AhXZa8sUQht0UEdBJgpGc",
+        "spotify_url": "https://open.spotify.com/track/3AhXZa8sUQht0UEdBJgpGc",
+        "deezer_url": "https://www.deezer.com/track/5836369",
+        "youtube_music_url": "https://music.youtube.com/watch?v=IwOfCgkyEj0"
+    },
+    {
+        "album": "1989 (Deluxe)",
+        "artists": [
+            "Taylor Swift"
+        ],
+        "title": "Blank Space",
+        "card_number": "00042",
+        "spotify": "1u8c2t2Cy7UBoG4ArRcF5g",
+        "spotify_url": "https://open.spotify.com/track/1u8c2t2Cy7UBoG4ArRcF5g",
+        "deezer_url": "https://www.deezer.com/track/2504890081",
+        "youtube_music_url": "https://music.youtube.com/watch?v=e-ORhEE9VVg"
+    },
+    {
+        "album": "Supernatural (Legacy Edition)",
+        "artists": [
+            "Santana",
+            "Maná"
+        ],
+        "title": "Corazon Espinado (feat. Mana)",
+        "card_number": "00041",
+        "spotify": "59uqWPaagd0khPaauWM2lU",
+        "spotify_url": "https://open.spotify.com/track/59uqWPaagd0khPaauWM2lU",
+        "deezer_url": "https://www.deezer.com/track/15437791",
+        "youtube_music_url": "https://music.youtube.com/watch?v=t6omUxqhG78"
+    },
+    {
+        "album": "This Is Acting",
+        "artists": [
+            "Sia"
+        ],
+        "title": "Unstoppable",
+        "card_number": "00040",
+        "spotify": "2J2Z1SkXYghSajLibnQHOa",
+        "spotify_url": "https://open.spotify.com/track/2J2Z1SkXYghSajLibnQHOa",
+        "deezer_url": "https://www.deezer.com/track/117708444",
+        "youtube_music_url": "https://music.youtube.com/watch?v=YaEG2aWJnZ8"
+    },
+    {
+        "album": "No Angel",
+        "artists": [
+            "Dido"
+        ],
+        "title": "Thank You",
+        "card_number": "00039",
+        "spotify": "3yUcJwYu7fXAfqMj9krY6l",
+        "spotify_url": "https://open.spotify.com/track/3yUcJwYu7fXAfqMj9krY6l",
+        "deezer_url": "https://www.deezer.com/track/78671040",
+        "youtube_music_url": "https://music.youtube.com/watch?v=1TO48Cnl66w"
+    },
+    {
+        "album": "El Rey Bravo",
+        "artists": [
+            "Tito Puente"
+        ],
+        "title": "Oye Cómo Va",
+        "card_number": "00038",
+        "spotify": "73uEbChpBB29ttwVnwuNVE",
+        "spotify_url": "https://open.spotify.com/track/73uEbChpBB29ttwVnwuNVE",
+        "deezer_url": "https://www.deezer.com/track/71211479",
+        "youtube_music_url": "https://music.youtube.com/watch?v=J7ATTjg7tpE"
+    },
+    {
+        "album": "Phoenix (Deluxe Edition)",
+        "artists": [
+            "Rita Ora"
+        ],
+        "title": "Let You Love Me",
+        "card_number": "00037",
+        "spotify": "5Fla3zyOCcIRqrDoKLU0DP",
+        "spotify_url": "https://open.spotify.com/track/5Fla3zyOCcIRqrDoKLU0DP",
+        "deezer_url": "https://www.deezer.com/track/460083382",
+        "youtube_music_url": "https://music.youtube.com/watch?v=XCQK6LmhYqc"
+    },
+    {
+        "album": "Bandido",
+        "artists": [
+            "Miguel Bosé"
+        ],
+        "title": "Sevilla",
+        "card_number": "00036",
+        "spotify": "5E48mFtui4eFEsEMzXXXqy",
+        "spotify_url": "https://open.spotify.com/track/5E48mFtui4eFEsEMzXXXqy",
+        "deezer_url": "https://www.deezer.com/track/103777074",
+        "youtube_music_url": "https://music.youtube.com/watch?v=E1JS5gBxM2s"
+    },
+    {
+        "album": "Dreamland",
+        "artists": [
+            "Glass Animals"
+        ],
+        "title": "Heat Waves",
+        "card_number": "00035",
+        "spotify": "3USxtqRwSYz57Ewm6wWRMp",
+        "spotify_url": "https://open.spotify.com/track/3USxtqRwSYz57Ewm6wWRMp",
+        "deezer_url": "https://www.deezer.com/track/1040154662",
+        "youtube_music_url": "https://music.youtube.com/watch?v=mRD0-GxqHVo"
+    },
+    {
+        "album": "Bigger, Better, Faster, More !",
+        "artists": [
+            "4 Non Blondes"
+        ],
+        "title": "What's Up?",
+        "card_number": "00034",
+        "spotify": "0jWgAnTrNZmOGmqgvHhZEm",
+        "spotify_url": "https://open.spotify.com/track/0jWgAnTrNZmOGmqgvHhZEm",
+        "deezer_url": "https://www.deezer.com/track/61293228",
+        "youtube_music_url": "https://music.youtube.com/watch?v=6NXnxTNIWkc"
+    },
+    {
+        "album": "We Started Nothing",
+        "artists": [
+            "The Ting Tings"
+        ],
+        "title": "That's Not My Name",
+        "card_number": "00033",
+        "spotify": "1i1OuCNhNf7JwrlWlFZFu1",
+        "spotify_url": "https://open.spotify.com/track/1i1OuCNhNf7JwrlWlFZFu1",
+        "deezer_url": "https://www.deezer.com/track/901069",
+        "youtube_music_url": "https://music.youtube.com/watch?v=v1c2OfAzDTI"
+    },
+    {
+        "album": "Night Visions",
+        "artists": [
+            "Imagine Dragons"
+        ],
+        "title": "Demons",
+        "card_number": "00032",
+        "spotify": "5qaEfEh1AtSdrdrByCP7qR",
+        "spotify_url": "https://open.spotify.com/track/5qaEfEh1AtSdrdrByCP7qR",
+        "deezer_url": "https://www.deezer.com/track/1363997842",
+        "youtube_music_url": "https://music.youtube.com/watch?v=mWRsgZuwf_8"
+    },
+    {
+        "album": "Por Fin Te Encontré",
+        "artists": [
+            "Cali Y El Dandee",
+            "Juan Magán",
+            "Sebastian Yatra"
+        ],
+        "title": "Por Fin Te Encontré",
+        "card_number": "00031",
+        "spotify": "2DAULesb1U4Qz4FSTZpEUJ",
+        "spotify_url": "https://open.spotify.com/track/2DAULesb1U4Qz4FSTZpEUJ",
+        "deezer_url": "https://www.deezer.com/track/107406138",
+        "youtube_music_url": "https://music.youtube.com/watch?v=_kxz7WX4mLU"
+    },
+    {
+        "album": "Mellow Gold",
+        "artists": [
+            "Beck"
+        ],
+        "title": "Loser",
+        "card_number": "00030",
+        "spotify": "5NTZM8YYeKM2YsGSffVIge",
+        "spotify_url": "https://open.spotify.com/track/5NTZM8YYeKM2YsGSffVIge",
+        "deezer_url": "https://www.deezer.com/track/3254679051",
+        "youtube_music_url": "https://music.youtube.com/watch?v=s3a4OQR-10M"
+    },
+    {
+        "album": "V",
+        "artists": [
+            "Maroon 5"
+        ],
+        "title": "Animals",
+        "card_number": "00029",
+        "spotify": "2bL2gyO6kBdLkNSkxXNh6x",
+        "spotify_url": "https://open.spotify.com/track/2bL2gyO6kBdLkNSkxXNh6x",
+        "deezer_url": "https://www.deezer.com/track/72217084",
+        "youtube_music_url": "https://music.youtube.com/watch?v=VeJ8OZvRcr4"
+    },
+    {
+        "album": "Beggars Banquet (50th Anniversary Edition)",
+        "artists": [
+            "The Rolling Stones"
+        ],
+        "title": "Sympathy For The Devil - 50th Anniversary Edition",
+        "card_number": "00028",
+        "spotify": "1Ud6moTC0KyXMq1Oxfien0",
+        "spotify_url": "https://open.spotify.com/track/1Ud6moTC0KyXMq1Oxfien0",
+        "deezer_url": "https://www.deezer.com/track/584242072",
+        "youtube_music_url": "https://music.youtube.com/watch?v=GgnClrx8N2k"
+    },
+    {
+        "album": "Sing It Back",
+        "artists": [
+            "Moloko",
+            "Boris Dlugosch",
+            "Michael Lange"
+        ],
+        "title": "Sing It Back - Boris Musical Mix - Edit",
+        "card_number": "00027",
+        "spotify": "4O0LwyuV3U18Hg5AxILDlI",
+        "spotify_url": "https://open.spotify.com/track/4O0LwyuV3U18Hg5AxILDlI",
+        "youtube_music_url": "https://music.youtube.com/watch?v=u_G_YliYNkg"
+    },
+    {
+        "album": "She's So Unusual",
+        "artists": [
+            "Cyndi Lauper"
+        ],
+        "title": "Time After Time",
+        "card_number": "00026",
+        "spotify": "7o9uu2GDtVDr9nsR7ZRN73",
+        "spotify_url": "https://open.spotify.com/track/7o9uu2GDtVDr9nsR7ZRN73",
+        "deezer_url": "https://www.deezer.com/track/1752405687",
+        "youtube_music_url": "https://music.youtube.com/watch?v=VdQY7BusJNU"
+    },
+    {
+        "album": "Vanessa Paradis",
+        "artists": [
+            "Vanessa Paradis"
+        ],
+        "title": "Be My Baby",
+        "card_number": "00025",
+        "spotify": "5UkoitnvaDUSsq7cVsOdOh",
+        "spotify_url": "https://open.spotify.com/track/5UkoitnvaDUSsq7cVsOdOh",
+        "deezer_url": "https://www.deezer.com/track/131737342",
+        "youtube_music_url": "https://music.youtube.com/watch?v=jSPpbOGnFgk"
+    },
+    {
+        "album": "Right Place Right Time (Expanded Edition)",
+        "artists": [
+            "Olly Murs",
+            "Flo Rida"
+        ],
+        "title": "Troublemaker (feat. Flo Rida)",
+        "card_number": "00024",
+        "spotify": "6s8nHXTJVqFjXE4yVZPDHR",
+        "spotify_url": "https://open.spotify.com/track/6s8nHXTJVqFjXE4yVZPDHR",
+        "deezer_url": "https://www.deezer.com/track/370456361",
+        "youtube_music_url": "https://music.youtube.com/watch?v=sTuMtyFWF1E"
+    },
+    {
+        "album": "Jagged Little Pill (2015 Remaster)",
+        "artists": [
+            "Alanis Morissette"
+        ],
+        "title": "You Oughta Know - 2015 Remaster",
+        "card_number": "00023",
+        "spotify": "3jS7bB0oXVOwGFZn3aE5NV",
+        "spotify_url": "https://open.spotify.com/track/3jS7bB0oXVOwGFZn3aE5NV",
+        "deezer_url": "https://www.deezer.com/track/109843288",
+        "youtube_music_url": "https://music.youtube.com/watch?v=qAySEAQYPys"
+    },
+    {
+        "album": "Planet Pit (Deluxe Version)",
+        "artists": [
+            "Pitbull",
+            "AFROJACK",
+            "Ne-Yo",
+            "Nayer"
+        ],
+        "title": "Give Me Everything (feat. Nayer)",
+        "card_number": "00022",
+        "spotify": "4QNpBfC0zvjKqPJcyqBy9W",
+        "spotify_url": "https://open.spotify.com/track/4QNpBfC0zvjKqPJcyqBy9W",
+        "deezer_url": "https://www.deezer.com/track/3110831",
+        "youtube_music_url": "https://music.youtube.com/watch?v=EPo5wWmKEaI"
+    },
+    {
+        "album": "Dead Letters",
+        "artists": [
+            "The Rasmus"
+        ],
+        "title": "In the Shadows",
+        "card_number": "00021",
+        "spotify": "1fr92Vupmcs2vgLMFVQ7rd",
+        "spotify_url": "https://open.spotify.com/track/1fr92Vupmcs2vgLMFVQ7rd",
+        "deezer_url": "https://www.deezer.com/track/1448680722",
+        "youtube_music_url": "https://music.youtube.com/watch?v=7gwO8-oqwFw"
+    },
+    {
+        "album": "Stronger (Deluxe Version)",
+        "artists": [
+            "Kelly Clarkson"
+        ],
+        "title": "Stronger (What Doesn't Kill You)",
+        "card_number": "00020",
+        "spotify": "1nInOsHbtotAmEOQhtvnzP",
+        "spotify_url": "https://open.spotify.com/track/1nInOsHbtotAmEOQhtvnzP",
+        "deezer_url": "https://www.deezer.com/track/494748912",
+        "youtube_music_url": "https://music.youtube.com/watch?v=PsO6ZnUZI0g"
+    },
+    {
+        "album": "Unorthodox Jukebox",
+        "artists": [
+            "Bruno Mars"
+        ],
+        "title": "Locked out of Heaven",
+        "card_number": "00019",
+        "spotify": "3w3y8KPTfNeOKPiqUTakBh",
+        "spotify_url": "https://open.spotify.com/track/3w3y8KPTfNeOKPiqUTakBh",
+        "deezer_url": "https://www.deezer.com/track/62724015",
+        "youtube_music_url": "https://music.youtube.com/watch?v=e-fA-gBCkj0"
+    },
+    {
+        "album": "Alta Suciedad",
+        "artists": [
+            "Andrés Calamaro"
+        ],
+        "title": "Flaca",
+        "card_number": "00018",
+        "spotify": "1p7m9H4H8s0Y7SgRm7j3ED",
+        "spotify_url": "https://open.spotify.com/track/1p7m9H4H8s0Y7SgRm7j3ED",
+        "deezer_url": "https://www.deezer.com/track/1453969652",
+        "youtube_music_url": "https://music.youtube.com/watch?v=UCF9oHXhDMU"
+    },
+    {
+        "album": "Ella Baila Sola",
+        "artists": [
+            "Ella Baila Sola"
+        ],
+        "title": "Amores de barra",
+        "card_number": "00017",
+        "spotify": "2fa3F4PVj2GR5SbcIMI65Y",
+        "spotify_url": "https://open.spotify.com/track/2fa3F4PVj2GR5SbcIMI65Y",
+        "deezer_url": "https://www.deezer.com/track/3138126",
+        "youtube_music_url": "https://music.youtube.com/watch?v=Gk8B56qOPm4"
+    },
+    {
+        "album": "Harry's House",
+        "artists": [
+            "Harry Styles"
+        ],
+        "title": "Late Night Talking",
+        "card_number": "00016",
+        "spotify": "1qEmFfgcLObUfQm0j1W2CK",
+        "spotify_url": "https://open.spotify.com/track/1qEmFfgcLObUfQm0j1W2CK",
+        "deezer_url": "https://www.deezer.com/track/1756569577",
+        "youtube_music_url": "https://music.youtube.com/watch?v=4VaqA-5aQTM"
+    },
+    {
+        "album": "Secrets (Remix Package)",
+        "artists": [
+            "Toni Braxton"
+        ],
+        "title": "You're Makin' Me High",
+        "card_number": "00015",
+        "spotify": "09I1TnKW1WPtD8tnQxRtkD",
+        "spotify_url": "https://open.spotify.com/track/09I1TnKW1WPtD8tnQxRtkD",
+        "deezer_url": "https://www.deezer.com/track/2820637142",
+        "youtube_music_url": "https://music.youtube.com/watch?v=wIgOL21S98o"
+    },
+    {
+        "album": "Miscelánea de canciones para robótica avanzada",
+        "artists": [
+            "Fangoria"
+        ],
+        "title": "Espectacular",
+        "card_number": "00014",
+        "spotify": "36JGdAr8Ode1yaAKn4fy3L",
+        "spotify_url": "https://open.spotify.com/track/36JGdAr8Ode1yaAKn4fy3L",
+        "deezer_url": "https://www.deezer.com/track/139406613",
+        "youtube_music_url": "https://music.youtube.com/watch?v=FMKgqhzBgu0"
+    },
+    {
+        "album": "En Tus Planes",
+        "artists": [
+            "David Bisbal",
+            "Sebastian Yatra"
+        ],
+        "title": "A Partir De Hoy",
+        "card_number": "00013",
+        "spotify": "3Z7JMhKrVBiMvMd0xV1vyI",
+        "spotify_url": "https://open.spotify.com/track/3Z7JMhKrVBiMvMd0xV1vyI",
+        "deezer_url": "https://www.deezer.com/track/470745192",
+        "youtube_music_url": "https://music.youtube.com/watch?v=Iwz4P8HfGVM"
+    },
+    {
+        "album": "Libertad",
+        "artists": [
+            "Nil Moliner"
+        ],
+        "title": "Libertad",
+        "card_number": "00012",
+        "spotify": "6Qi1MNFHCLo4bVsV14MOmz",
+        "spotify_url": "https://open.spotify.com/track/6Qi1MNFHCLo4bVsV14MOmz",
+        "deezer_url": "https://www.deezer.com/track/11942664",
+        "youtube_music_url": "https://music.youtube.com/watch?v=utyaiklIQog"
+    },
+    {
+        "album": "Depende",
+        "artists": [
+            "Jarabe De Palo"
+        ],
+        "title": "Depende",
+        "card_number": "00011",
+        "spotify": "6aaPUBUFw9KEW1p1inVQv9",
+        "spotify_url": "https://open.spotify.com/track/6aaPUBUFw9KEW1p1inVQv9",
+        "deezer_url": "https://www.deezer.com/track/142477341",
+        "youtube_music_url": "https://music.youtube.com/watch?v=dgf5QlcyTFY"
+    },
+    {
+        "album": "How To Save A Life",
+        "artists": [
+            "The Fray"
+        ],
+        "title": "How to Save a Life",
+        "card_number": "00010",
+        "spotify": "5fVZC9GiM4e8vu99W0Xf6J",
+        "spotify_url": "https://open.spotify.com/track/5fVZC9GiM4e8vu99W0Xf6J",
+        "deezer_url": "https://www.deezer.com/track/7674865",
+        "youtube_music_url": "https://music.youtube.com/watch?v=k-ixqWNlLMI"
+    },
+    {
+        "album": "There Is Nothing Left To Lose",
+        "artists": [
+            "Foo Fighters"
+        ],
+        "title": "Learn to Fly",
+        "card_number": "00009",
+        "spotify": "5OQsiBsky2k2kDKy2bX2eT",
+        "spotify_url": "https://open.spotify.com/track/5OQsiBsky2k2kDKy2bX2eT",
+        "deezer_url": "https://www.deezer.com/track/16070100",
+        "youtube_music_url": "https://music.youtube.com/watch?v=1VQ_3sBZEm0"
+    },
+    {
+        "album": "So Dark The Con Of Man",
+        "artists": [
+            "Madcon"
+        ],
+        "title": "Beggin (original version)",
+        "card_number": "00008",
+        "spotify": "1XyL3J7eTTKnxRZAM3LqIT",
+        "spotify_url": "https://open.spotify.com/track/1XyL3J7eTTKnxRZAM3LqIT",
+        "deezer_url": "https://www.deezer.com/track/437046332",
+        "youtube_music_url": "https://music.youtube.com/watch?v=W2MpGCL8-9o"
+    },
+    {
+        "album": "Let's Talk About Love",
+        "artists": [
+            "Modern Talking"
+        ],
+        "title": "Cheri Cheri Lady",
+        "card_number": "00007",
+        "spotify": "2aEuA8PSqLa17Y4hKPj5rr",
+        "spotify_url": "https://open.spotify.com/track/2aEuA8PSqLa17Y4hKPj5rr",
+        "deezer_url": "https://www.deezer.com/track/74249000",
+        "youtube_music_url": "https://music.youtube.com/watch?v=eNvUS-6PTbs"
+    },
+    {
+        "album": "En Transito",
+        "artists": [
+            "Joan Manuel Serrat"
+        ],
+        "title": "Hoy Puede Ser un Gran Día",
+        "card_number": "00006",
+        "spotify": "5YxgSArh0FDP0CEDuZcYnC",
+        "spotify_url": "https://open.spotify.com/track/5YxgSArh0FDP0CEDuZcYnC",
+        "deezer_url": "https://www.deezer.com/track/88448291",
+        "youtube_music_url": "https://music.youtube.com/watch?v=_qBpcloExbk"
+    },
+    {
+        "album": "Title (Deluxe)",
+        "artists": [
+            "Meghan Trainor"
+        ],
+        "title": "Dear Future Husband",
+        "card_number": "00005",
+        "spotify": "3cU2wBxuV6nFiuf6PJZNlC",
+        "spotify_url": "https://open.spotify.com/track/3cU2wBxuV6nFiuf6PJZNlC",
+        "deezer_url": "https://www.deezer.com/track/113420706",
+        "youtube_music_url": "https://music.youtube.com/watch?v=ShlW5plD_40"
+    },
+    {
+        "album": "The Best of Sade",
+        "artists": [
+            "Sade"
+        ],
+        "title": "Smooth Operator - Single Version",
+        "card_number": "00004",
+        "spotify": "1Hv1VTm8zeOeybub15mA2R",
+        "spotify_url": "https://open.spotify.com/track/1Hv1VTm8zeOeybub15mA2R",
+        "deezer_url": "https://www.deezer.com/track/1030651922",
+        "youtube_music_url": "https://music.youtube.com/watch?v=nNK54e3fM-U"
+    },
+    {
+        "album": "Gorillaz",
+        "artists": [
+            "Gorillaz",
+            "Del The Funky Homosapien"
+        ],
+        "title": "Clint Eastwood",
+        "card_number": "00003",
+        "spotify": "1RKUoGiLEbcXN4GY4spQDx",
+        "spotify_url": "https://open.spotify.com/track/1RKUoGiLEbcXN4GY4spQDx",
+        "deezer_url": "https://www.deezer.com/track/1193848662",
+        "youtube_music_url": "https://music.youtube.com/watch?v=1V_xRb0x9aw"
+    },
+    {
+        "album": "Some Nights",
+        "artists": [
+            "fun."
+        ],
+        "title": "Some Nights",
+        "card_number": "00002",
+        "spotify": "67WTwafOMgegV6ABnBQxcE",
+        "spotify_url": "https://open.spotify.com/track/67WTwafOMgegV6ABnBQxcE",
+        "deezer_url": "https://www.deezer.com/track/101917315",
+        "youtube_music_url": "https://music.youtube.com/watch?v=qQkBeOisNM0"
+    },
+    {
+        "album": "Tiempo de otoño",
+        "artists": [
+            "José Luis Perales"
+        ],
+        "title": "Un Velero Llamado Libertad",
+        "card_number": "00001",
+        "spotify": "2eKBLX1uF9PgvJ6qqGwmRZ",
+        "spotify_url": "https://open.spotify.com/track/2eKBLX1uF9PgvJ6qqGwmRZ",
+        "deezer_url": "https://www.deezer.com/track/130415688",
+        "youtube_music_url": "https://music.youtube.com/watch?v=EFL1NdCDdlM"
+    }
 ]
