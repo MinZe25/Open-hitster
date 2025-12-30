@@ -6,182 +6,263 @@
     <title>Flip to Play</title>
     <script src="https://unpkg.com/html5-qrcode"></script>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; text-align: center; background: #000; color: white; margin: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; overflow: hidden; }
-        #reader { width: 320px; border-radius: 20px; overflow: hidden; border: 2px solid #333; background: #1a1a1a; }
-        .ui-container { display: flex; flex-direction: column; align-items: center; gap: 20px; padding: 20px; }
-        .hidden { display: none !important; }
-        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            text-align: center;
+            background: #000;
+            color: white;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        #reader {
+            width: 320px;
+            border-radius: 20px;
+            overflow: hidden;
+            border: 2px solid #333;
+            background: #1a1a1a;
+        }
+
+        .ui-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
         /* Button Styling */
-        .btn-primary { background: #1DB954; color: white; border: none; padding: 15px 40px; font-size: 1.2rem; font-weight: bold; border-radius: 50px; cursor: pointer; transition: transform 0.2s; }
-        .btn-primary:active { transform: scale(0.95); }
+        .btn-primary {
+            background: #1DB954;
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .btn-primary:active {
+            transform: scale(0.95);
+        }
 
         /* Service Selector */
-        .service-selector { display: flex; gap: 10px; margin-top: 10px; }
-        .service-btn { background: #333; color: white; border: 2px solid transparent; padding: 8px 15px; border-radius: 20px; cursor: pointer; font-size: 0.9rem; transition: all 0.2s; }
-        .service-btn.active { border-color: #1DB954; background: #1DB954; }
-        .service-btn:hover { background: #444; }
-        .service-btn.active:hover { background: #1DB954; }
+        .service-selector {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .service-btn {
+            background: #333;
+            color: white;
+            border: 2px solid transparent;
+            padding: 8px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+        }
+
+        .service-btn.active {
+            border-color: #1DB954;
+            background: #1DB954;
+        }
+
+        .service-btn:hover {
+            background: #444;
+        }
+
+        .service-btn.active:hover {
+            background: #1DB954;
+        }
 
         /* Success Screen */
-        .flip-screen { background: linear-gradient(180deg, #1DB954 0%, #191414 100%); width: 100vw; height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; }
-        .tilt-indicator { font-size: 0.8rem; margin-top: 10px; color: rgba(255,255,255,0.6); }
+        .flip-screen {
+            background: linear-gradient(180deg, #1DB954 0%, #191414 100%);
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .tilt-indicator {
+            font-size: 0.8rem;
+            margin-top: 10px;
+            color: rgba(255, 255, 255, 0.6);
+        }
     </style>
 </head>
 <body>
 
-    <div id="landing-ui" class="ui-container">
-        <h1 style="font-size: 2rem;">Ready?</h1>
-        <p>Scan a QR code, then flip your phone.</p>
-        <button class="btn-primary" onclick="initApp()">New Song</button>
-        
-        <div class="service-selector">
-            <button class="service-btn" id="btn-spotify" onclick="setService('spotify')">Spotify</button>
-            <button class="service-btn" id="btn-youtube" onclick="setService('youtube')">YouTube</button>
-            <button class="service-btn" id="btn-deezer" onclick="setService('deezer')">Deezer</button>
-        </div>
+<div id="landing-ui" class="ui-container">
+    <h1 style="font-size: 2rem;">Ready?</h1>
+    <p>Scan a QR code, then flip your phone.</p>
+    <button class="btn-primary" onclick="initApp()">New Song</button>
+
+    <div class="service-selector">
+        <button class="service-btn" id="btn-spotify" onclick="setService('spotify')">Spotify</button>
+        <button class="service-btn" id="btn-youtube" onclick="setService('youtube')">YouTube</button>
+        <button class="service-btn" id="btn-deezer" onclick="setService('deezer')">Deezer</button>
     </div>
+</div>
 
-    <div id="scanner-ui" class="ui-container hidden">
-        <h2>Scanning...</h2>
-        <div id="reader"></div>
-        <p>Point camera at the QR link</p>
-    </div>
+<div id="scanner-ui" class="ui-container hidden">
+    <h2>Scanning...</h2>
+    <div id="reader"></div>
+    <p>Point camera at the QR link</p>
+</div>
 
-    <div id="flip-ui" class="flip-screen hidden">
-        <h1 style="font-size: 2.5rem;">LINK READY!</h1>
-        <p style="font-size: 1.2rem;">Flip your phone <b>face down</b><br>to play the song.</p>
-        <div id="orientation-data" class="tilt-indicator">Waiting for movement...</div>
-    </div>
+<div id="flip-ui" class="flip-screen hidden">
+    <h1 style="font-size: 2.5rem;">LINK READY!</h1>
+    <p style="font-size: 1.2rem;">Flip your phone <b>face down</b><br>to play the song.</p>
+    <div id="orientation-data" class="tilt-indicator">Waiting for movement...</div>
+</div>
 
-    <script>
-        let pendingURL = "";
-        let isWaitingForFlip = false;
-        let cardData = null;
-        let selectedService = localStorage.getItem("preferredService") || "spotify";
-        const html5QrCode = new Html5Qrcode("reader");
+<script>
+    let pendingURL = "";
+    let isWaitingForFlip = false;
+    let cardData = null;
+    let selectedService = localStorage.getItem("preferredService") || "spotify";
+    const html5QrCode = new Html5Qrcode("reader");
 
-        function updateServiceUI() {
-            document.querySelectorAll('.service-btn').forEach(btn => btn.classList.remove('active'));
-            const activeBtn = document.getElementById(`btn-${selectedService}`);
-            if (activeBtn) activeBtn.classList.add('active');
-        }
+    function updateServiceUI() {
+        document.querySelectorAll('.service-btn').forEach(btn => btn.classList.remove('active'));
+        const activeBtn = document.getElementById(`btn-${selectedService}`);
+        if (activeBtn) activeBtn.classList.add('active');
+    }
 
-        function setService(service) {
-            selectedService = service;
-            localStorage.setItem("preferredService", service);
-            updateServiceUI();
-        }
-
-        // Initialize UI
+    function setService(service) {
+        selectedService = service;
+        localStorage.setItem("preferredService", service);
         updateServiceUI();
+    }
 
-        async function initApp() {
-            // 1. Request iOS Permissions (if needed)
-            if (typeof DeviceOrientationEvent.requestPermission === 'function') {
-                try {
-                    const permissionState = await DeviceOrientationEvent.requestPermission();
-                    if (permissionState !== 'granted') {
-                        alert("Sensor access denied. Please refresh and allow.");
-                        return;
-                    }
-                } catch (e) {
-                    console.error(e);
+    // Initialize UI
+    updateServiceUI();
+
+    async function initApp() {
+        // 1. Request iOS Permissions (if needed)
+        if (typeof DeviceOrientationEvent.requestPermission === 'function') {
+            try {
+                const permissionState = await DeviceOrientationEvent.requestPermission();
+                if (permissionState !== 'granted') {
+                    alert("Sensor access denied. Please refresh and allow.");
+                    return;
                 }
+            } catch (e) {
+                console.error(e);
             }
-
-            // 2. Switch UI
-            document.getElementById("landing-ui").classList.add("hidden");
-            document.getElementById("scanner-ui").classList.remove("hidden");
-
-            // 3. Start Camera
-            startScanner();
         }
 
-        function startScanner() {
-            html5QrCode.start(
-                { facingMode: "environment" }, 
-                { fps: 10, qrbox: { width: 250, height: 250 } },
-                async (decodedText) => {
-                    // Try to parse the URL to see if it matches our card pattern
-                    // Example: https://example.com/card/en/aaaa0017/00225
-                    const urlPattern = /(hitstergame.com)\/([^/]+)\/([^/]+)\/([^/]+)$/;
-                    const match = decodedText.match(urlPattern);
+        // 2. Switch UI
+        document.getElementById("landing-ui").classList.add("hidden");
+        document.getElementById("scanner-ui").classList.remove("hidden");
 
-                    if (match) {
-                        const [_, lang, sku, cardNumber] = match;
-                        try {
-                            const response = await fetch(`./card/${lang}/${sku}/${cardNumber}.json`);
-                            if (response.ok) {
-                                cardData = await response.json();
-                                
-                                // Logic: Selected -> YouTube -> Spotify
-                                const urls = {
-                                    spotify: cardData.spotify_url,
-                                    youtube: cardData.youtube_music_url,
-                                    deezer: cardData.deezer_url
-                                };
+        // 3. Start Camera
+        startScanner();
+    }
 
-                                pendingURL = urls[selectedService];
-                                if (!pendingURL) {
-                                    console.log(`Preferred service ${selectedService} not found, falling back to YouTube`);
-                                    pendingURL = urls.youtube;
-                                }
-                                if (!pendingURL) {
-                                    console.log(`YouTube fallback not found, falling back to Spotify`);
-                                    pendingURL = urls.spotify;
-                                }
-                                
-                                if (!pendingURL) {
-                                    // Extreme fallback if none of the above exist
-                                    pendingURL = decodedText;
-                                }
+    function startScanner() {
+        html5QrCode.start(
+            {facingMode: "environment"},
+            {fps: 10, qrbox: {width: 250, height: 250}},
+            async (decodedText) => {
+                // Try to parse the URL to see if it matches our card pattern
+                // Example: https://example.com/card/en/aaaa0017/00225
+                console.log(`Scanned: ${decodedText}`);
+                handleScanSuccess();
+                const urlPattern = /(hitstergame.com)\/([^/]+)\/([^/]+)\/([^/]+)$/;
+                const match = decodedText.match(urlPattern);
 
-                                handleScanSuccess();
-                            } else {
-                                // Fallback to raw URL if fetch fails
-                                pendingURL = decodedText;
-                                handleScanSuccess();
+                if (match) {
+                    const [_, lang, sku, cardNumber] = match;
+                    try {
+                        const response = await fetch(`./card/${lang}/${sku}/${cardNumber}.json`);
+                        if (response.ok) {
+                            cardData = await response.json();
+
+                            // Logic: Selected -> YouTube -> Spotify
+                            const urls = {
+                                spotify: cardData.spotify_url,
+                                youtube: cardData.youtube_music_url,
+                                deezer: cardData.deezer_url
+                            };
+
+                            pendingURL = urls[selectedService];
+                            if (!pendingURL) {
+                                console.log(`Preferred service ${selectedService} not found, falling back to YouTube`);
+                                pendingURL = urls.youtube;
                             }
-                        } catch (e) {
-                            console.error("Fetch error:", e);
+                            if (!pendingURL) {
+                                console.log(`YouTube fallback not found, falling back to Spotify`);
+                                pendingURL = urls.spotify;
+                            }
+
+                            if (!pendingURL) {
+                                // Extreme fallback if none of the above exist
+                                pendingURL = decodedText;
+                            }
+
+                            handleScanSuccess();
+                        } else {
+                            // Fallback to raw URL if fetch fails
                             pendingURL = decodedText;
                             handleScanSuccess();
                         }
-                    } else if (decodedText.startsWith("http")) {
+                    } catch (e) {
+                        console.error("Fetch error:", e);
                         pendingURL = decodedText;
                         handleScanSuccess();
                     }
-                }
-            ).catch(err => {
-                alert("Camera error: " + err);
-            });
-        }
-
-        function handleScanSuccess() {
-            html5QrCode.stop();
-            document.getElementById("scanner-ui").classList.add("hidden");
-            document.getElementById("flip-ui").classList.remove("hidden");
-            isWaitingForFlip = true;
-        }
-
-        // Monitor Device Orientation
-        window.addEventListener("deviceorientation", (event) => {
-            if (!isWaitingForFlip) return;
-
-            const beta = event.beta; // Tilt value
-            const indicator = document.getElementById("orientation-data");
-            
-            if (beta !== null) {
-                indicator.innerText = `Device Tilt: ${Math.round(beta)}° / Target: ~180°`;
-                
-                // If phone is flipped face-down (Beta > 165 or < -165)
-                if (Math.abs(beta) > 165) {
-                    isWaitingForFlip = false;
-                    indicator.innerText = "OPENING...";
-                    window.location.href = pendingURL;
+                } else if (decodedText.startsWith("http")) {
+                    pendingURL = decodedText;
+                    handleScanSuccess();
                 }
             }
-        }, true);
-    </script>
+        ).catch(err => {
+            alert("Camera error: " + err);
+        });
+    }
+
+    function handleScanSuccess() {
+        html5QrCode.stop();
+        document.getElementById("scanner-ui").classList.add("hidden");
+        document.getElementById("flip-ui").classList.remove("hidden");
+        isWaitingForFlip = true;
+    }
+
+    // Monitor Device Orientation
+    window.addEventListener("deviceorientation", (event) => {
+        if (!isWaitingForFlip) return;
+
+        const beta = event.beta; // Tilt value
+        const indicator = document.getElementById("orientation-data");
+
+        if (beta !== null) {
+            indicator.innerText = `Device Tilt: ${Math.round(beta)}° / Target: ~180°`;
+
+            // If phone is flipped face-down (Beta > 165 or < -165)
+            if (Math.abs(beta) > 165) {
+                isWaitingForFlip = false;
+                indicator.innerText = "OPENING...";
+                window.location.href = pendingURL;
+            }
+        }
+    }, true);
+</script>
 </body>
 </html>
