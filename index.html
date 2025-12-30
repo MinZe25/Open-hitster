@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flip to Play</title>
-    <script src="https://unpkg.com/html5-qrcode"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <script src="https://unpkg.com/vue-qrcode-reader@5.7.3/dist/vue-qrcode-reader.umd.js"></script>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -22,10 +23,31 @@
 
         #reader {
             width: 320px;
+            height: 320px;
             border-radius: 20px;
             overflow: hidden;
             border: 2px solid #333;
             background: #1a1a1a;
+            position: relative;
+        }
+
+        #preview {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .scan-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 2px solid #1DB954;
+            box-sizing: border-box;
+            border-radius: 20px;
+            opacity: 0.5;
+            pointer-events: none;
         }
 
         .ui-container {
@@ -108,161 +130,168 @@
 </head>
 <body>
 
-<div id="landing-ui" class="ui-container">
-    <h1 style="font-size: 2rem;">Ready?</h1>
-    <p>Scan a QR code, then flip your phone.</p>
-    <button class="btn-primary" onclick="initApp()">New Song</button>
+<div id="app">
+    <div v-if="currentUI === 'landing'" id="landing-ui" class="ui-container">
+        <h1 style="font-size: 2rem;">Ready?</h1>
+        <p>Scan a QR code, then flip your phone.</p>
+        <button class="btn-primary" @click="initApp">New Song</button>
 
-    <div class="service-selector">
-        <button class="service-btn" id="btn-spotify" onclick="setService('spotify')">Spotify</button>
-        <button class="service-btn" id="btn-youtube" onclick="setService('youtube')">YouTube</button>
-        <button class="service-btn" id="btn-deezer" onclick="setService('deezer')">Deezer</button>
+        <div class="service-selector">
+            <button 
+                v-for="service in services" 
+                :key="service"
+                :class="['service-btn', { active: selectedService === service }]" 
+                @click="setService(service)"
+            >
+                {{ service.charAt(0).toUpperCase() + service.slice(1) }}
+            </button>
+        </div>
+    </div>
+
+    <div v-if="currentUI === 'scanner'" id="scanner-ui" class="ui-container">
+        <h2>Scanning...</h2>
+        <div id="reader">
+            <qrcode-stream @detect="onDetect" @init="onInit"></qrcode-stream>
+            <div class="scan-overlay"></div>
+        </div>
+        <p>Point camera at the QR link</p>
+    </div>
+
+    <div v-if="currentUI === 'flip'" id="flip-ui" class="flip-screen">
+        <h1 style="font-size: 2.5rem;">LINK READY!</h1>
+        <p style="font-size: 1.2rem;">Flip your phone <b>face down</b><br>to play the song.</p>
+        <div id="orientation-data" class="tilt-indicator">
+            Device Tilt: {{ Math.round(currentBeta) }}° / Target: ~180°
+        </div>
     </div>
 </div>
 
-<div id="scanner-ui" class="ui-container hidden">
-    <h2>Scanning...</h2>
-    <div id="reader"></div>
-    <p>Point camera at the QR link</p>
-</div>
-
-<div id="flip-ui" class="flip-screen hidden">
-    <h1 style="font-size: 2.5rem;">LINK READY!</h1>
-    <p style="font-size: 1.2rem;">Flip your phone <b>face down</b><br>to play the song.</p>
-    <div id="orientation-data" class="tilt-indicator">Waiting for movement...</div>
-</div>
-
 <script>
-    let pendingURL = "";
-    let isWaitingForFlip = false;
-    let cardData = null;
-    let selectedService = localStorage.getItem("preferredService") || "spotify";
-    const html5QrCode = new Html5Qrcode("reader");
+    const { createApp, ref, onMounted, onUnmounted } = Vue;
 
-    function updateServiceUI() {
-        document.querySelectorAll('.service-btn').forEach(btn => btn.classList.remove('active'));
-        const activeBtn = document.getElementById(`btn-${selectedService}`);
-        if (activeBtn) activeBtn.classList.add('active');
-    }
+    const app = createApp({
+        setup() {
+            const currentUI = ref('landing');
+            const selectedService = ref(localStorage.getItem("preferredService") || "spotify");
+            const services = ['spotify', 'youtube', 'deezer'];
+            const pendingURL = ref("");
+            const currentBeta = ref(0);
+            const isWaitingForFlip = ref(false);
 
-    function setService(service) {
-        selectedService = service;
-        localStorage.setItem("preferredService", service);
-        updateServiceUI();
-    }
+            const setService = (service) => {
+                selectedService.value = service;
+                localStorage.setItem("preferredService", service);
+            };
 
-    // Initialize UI
-    updateServiceUI();
-
-    async function initApp() {
-        // 1. Request iOS Permissions (if needed)
-        if (typeof DeviceOrientationEvent.requestPermission === 'function') {
-            try {
-                const permissionState = await DeviceOrientationEvent.requestPermission();
-                if (permissionState !== 'granted') {
-                    alert("Sensor access denied. Please refresh and allow.");
-                    return;
+            const initApp = async () => {
+                if (typeof DeviceOrientationEvent.requestPermission === 'function') {
+                    try {
+                        const permissionState = await DeviceOrientationEvent.requestPermission();
+                        if (permissionState !== 'granted') {
+                            alert("Sensor access denied. Please refresh and allow.");
+                            return;
+                        }
+                    } catch (e) {
+                        console.error(e);
+                    }
                 }
-            } catch (e) {
-                console.error(e);
-            }
-        }
+                currentUI.value = 'scanner';
+            };
 
-        // 2. Switch UI
-        document.getElementById("landing-ui").classList.add("hidden");
-        document.getElementById("scanner-ui").classList.remove("hidden");
+            const onInit = async (promise) => {
+                try {
+                    await promise;
+                } catch (error) {
+                    if (error.name === 'NotAllowedError') {
+                        alert("Camera access denied.");
+                    } else {
+                        alert("Camera error: " + error.message);
+                    }
+                }
+            };
 
-        // 3. Start Camera
-        startScanner();
-    }
-
-    function startScanner() {
-        html5QrCode.start(
-            {facingMode: "environment"},
-            {fps: 10, qrbox: {width: 250, height: 250}},
-            async (decodedText) => {
-                // Try to parse the URL to see if it matches our card pattern
-                // Example: https://example.com/card/en/aaaa0017/00225
+            const onDetect = async (detectedCodes) => {
+                if (detectedCodes.length === 0) return;
+                
+                const decodedText = detectedCodes[0].rawValue;
                 console.log(`Scanned: ${decodedText}`);
-                handleScanSuccess();
+                
                 const urlPattern = /(hitstergame.com)\/([^/]+)\/([^/]+)\/([^/]+)$/;
                 const match = decodedText.match(urlPattern);
 
                 if (match) {
-                    const [_, lang, sku, cardNumber] = match;
+                    const [_, host, lang, sku, cardNumber] = match;
                     try {
                         const response = await fetch(`./card/${lang}/${sku}/${cardNumber}.json`);
                         if (response.ok) {
-                            cardData = await response.json();
-
-                            // Logic: Selected -> YouTube -> Spotify
+                            const cardData = await response.json();
                             const urls = {
                                 spotify: cardData.spotify_url,
                                 youtube: cardData.youtube_music_url,
                                 deezer: cardData.deezer_url
                             };
 
-                            pendingURL = urls[selectedService];
-                            if (!pendingURL) {
-                                console.log(`Preferred service ${selectedService} not found, falling back to YouTube`);
-                                pendingURL = urls.youtube;
-                            }
-                            if (!pendingURL) {
-                                console.log(`YouTube fallback not found, falling back to Spotify`);
-                                pendingURL = urls.spotify;
-                            }
-
-                            if (!pendingURL) {
-                                // Extreme fallback if none of the above exist
-                                pendingURL = decodedText;
-                            }
-
-                            handleScanSuccess();
+                            let url = urls[selectedService.value];
+                            if (!url) url = urls.youtube;
+                            if (!url) url = urls.spotify;
+                            if (!url) url = decodedText;
+                            
+                            pendingURL.value = url;
                         } else {
-                            // Fallback to raw URL if fetch fails
-                            pendingURL = decodedText;
-                            handleScanSuccess();
+                            pendingURL.value = decodedText;
                         }
                     } catch (e) {
                         console.error("Fetch error:", e);
-                        pendingURL = decodedText;
-                        handleScanSuccess();
+                        pendingURL.value = decodedText;
                     }
-                } else if (decodedText.startsWith("http")) {
-                    pendingURL = decodedText;
-                    handleScanSuccess();
+                } else {
+                    pendingURL.value = decodedText;
                 }
-            }
-        ).catch(err => {
-            alert("Camera error: " + err);
-        });
-    }
 
-    function handleScanSuccess() {
-        html5QrCode.stop();
-        document.getElementById("scanner-ui").classList.add("hidden");
-        document.getElementById("flip-ui").classList.remove("hidden");
-        isWaitingForFlip = true;
-    }
+                handleScanSuccess();
+            };
 
-    // Monitor Device Orientation
-    window.addEventListener("deviceorientation", (event) => {
-        if (!isWaitingForFlip) return;
+            const handleScanSuccess = () => {
+                currentUI.value = 'flip';
+                isWaitingForFlip.value = true;
+            };
 
-        const beta = event.beta; // Tilt value
-        const indicator = document.getElementById("orientation-data");
+            const handleOrientation = (event) => {
+                if (!isWaitingForFlip.value) return;
 
-        if (beta !== null) {
-            indicator.innerText = `Device Tilt: ${Math.round(beta)}° / Target: ~180°`;
+                const beta = event.beta;
+                if (beta !== null) {
+                    currentBeta.value = beta;
+                    if (Math.abs(beta) > 165) {
+                        isWaitingForFlip.value = false;
+                        window.location.href = pendingURL.value;
+                    }
+                }
+            };
 
-            // If phone is flipped face-down (Beta > 165 or < -165)
-            if (Math.abs(beta) > 165) {
-                isWaitingForFlip = false;
-                indicator.innerText = "OPENING...";
-                window.location.href = pendingURL;
-            }
+            onMounted(() => {
+                window.addEventListener("deviceorientation", handleOrientation, true);
+            });
+
+            onUnmounted(() => {
+                window.removeEventListener("deviceorientation", handleOrientation);
+            });
+
+            return {
+                currentUI,
+                selectedService,
+                services,
+                currentBeta,
+                setService,
+                initApp,
+                onInit,
+                onDetect
+            };
         }
-    }, true);
+    });
+
+    app.use(VueQrcodeReader);
+    app.mount('#app');
 </script>
 </body>
 </html>
